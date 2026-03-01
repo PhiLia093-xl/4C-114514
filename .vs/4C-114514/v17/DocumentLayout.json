@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\27931\\Desktop\\\u8BA1\u8BBE\\4C-114514\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\unity\\\u8BA1\u8BBE\\4c-114514\\assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\unity\\\u8BA1\u8BBE\\4c-114514\\assets\\tianxingjian\\\u811A\u672C\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\AudioManager.cs",
+              "ToolTip": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T12:40:40.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mainmenu.cs",
+              "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "ToolTip": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T12:03:56.304Z",
+              "EditorCaption": ""
             }
           ]
         }
