@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class BookController : MonoBehaviour
@@ -14,12 +14,16 @@ public class BookController : MonoBehaviour
     private int currentPageIndex = 0;
     private bool isFlipping = false;
 
+    private float animationDuration = 2f;
+    private float halfDuration = 1f;
+
     void Start()
     {
         flipPage.enabled = false;
         UpdatePages();
     }
 
+    
     public void NextPage()
     {
         if (isFlipping) return;
@@ -33,20 +37,33 @@ public class BookController : MonoBehaviour
 
         flipAnimator.SetTrigger("FlipForwardTrigger");
 
-        Invoke(nameof(AfterForwardFlip), 0.5f);
+        
+        Invoke(nameof(UpdatePageMidForward), halfDuration);
+
+        
+        Invoke(nameof(AfterForwardFlip), animationDuration);
+    }
+
+    
+    void UpdatePageMidForward()
+    {
+        
+        currentPageIndex += 2;
+        UpdatePages();
+
+        
+        flipPage.sprite = leftPage.sprite;
     }
 
     void AfterForwardFlip()
     {
-        currentPageIndex += 2;
-        UpdatePages();
-
         flipPage.enabled = false;
         flipPage.transform.localRotation = Quaternion.identity;
 
         isFlipping = false;
     }
 
+    
     public void PrevPage()
     {
         if (isFlipping) return;
@@ -54,27 +71,39 @@ public class BookController : MonoBehaviour
 
         isFlipping = true;
 
-        currentPageIndex -= 2;
-
         flipPage.sprite = leftPage.sprite;
         flipPage.transform.localRotation = Quaternion.identity;
         flipPage.enabled = true;
 
         flipAnimator.SetTrigger("FlipBackwardTrigger");
 
-        Invoke(nameof(AfterBackwardFlip), 0.5f);
+        
+        Invoke(nameof(UpdatePageMidBackward), halfDuration);
+
+        
+        Invoke(nameof(AfterBackwardFlip), animationDuration);
+    }
+
+    
+    void UpdatePageMidBackward()
+    {
+       
+        currentPageIndex -= 2;
+        UpdatePages();
+
+        
+        flipPage.sprite = rightPage.sprite;
     }
 
     void AfterBackwardFlip()
     {
-        UpdatePages();
-
         flipPage.enabled = false;
         flipPage.transform.localRotation = Quaternion.identity;
 
         isFlipping = false;
     }
 
+   
     void UpdatePages()
     {
         leftPage.sprite = pages[currentPageIndex];
