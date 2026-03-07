@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class BookController : MonoBehaviour
 {
-    public Image leftPage;
-    public Image rightPage;
-    public Image flipPage;
+    public SpriteRenderer leftPage;
+    public SpriteRenderer rightPage;
+    public SpriteRenderer flipPage;
 
     public Sprite[] pages;
 
@@ -33,21 +33,20 @@ public class BookController : MonoBehaviour
 
         flipPage.sprite = rightPage.sprite;
         flipPage.transform.localRotation = Quaternion.identity;
+        flipPage.flipX = false;
         flipPage.enabled = true;
 
         flipAnimator.SetTrigger("FlipForwardTrigger");
 
         
         Invoke(nameof(UpdatePageMidForward), halfDuration);
-
-        
         Invoke(nameof(AfterForwardFlip), animationDuration);
     }
 
     
     void UpdatePageMidForward()
     {
-        
+        flipPage.flipX = true;
         currentPageIndex += 2;
         UpdatePages();
 
@@ -75,6 +74,8 @@ public class BookController : MonoBehaviour
         flipPage.transform.localRotation = Quaternion.identity;
         flipPage.enabled = true;
 
+        flipPage.flipX= true;
+
         flipAnimator.SetTrigger("FlipBackwardTrigger");
 
         
@@ -87,7 +88,7 @@ public class BookController : MonoBehaviour
     
     void UpdatePageMidBackward()
     {
-       
+        flipPage.flipX = false;
         currentPageIndex -= 2;
         UpdatePages();
 
