@@ -13,9 +13,13 @@ public class BookController : MonoBehaviour
 
     private int currentPageIndex = 0;
     private bool isFlipping = false;
+    private bool isCooldown = false;
 
     private float animationDuration = 2f;
     private float halfDuration = 1f;
+
+    // 新增翻页冷却
+    private float flipCooldown = 0.5f;
 
     void Start()
     {
@@ -23,92 +27,114 @@ public class BookController : MonoBehaviour
         UpdatePages();
     }
 
-    
     public void NextPage()
     {
-        if (isFlipping) return;
+        if (isFlipping || isCooldown) return;
         if (currentPageIndex + 2 >= pages.Length) return;
 
         isFlipping = true;
 
         flipPage.sprite = rightPage.sprite;
+
+        currentPageIndex += 2;
+
+        UpdateRightPage();
+
         flipPage.transform.localRotation = Quaternion.identity;
         flipPage.flipX = false;
         flipPage.enabled = true;
 
         flipAnimator.SetTrigger("FlipForwardTrigger");
 
-        
         Invoke(nameof(UpdatePageMidForward), halfDuration);
         Invoke(nameof(AfterForwardFlip), animationDuration);
     }
 
-    
     void UpdatePageMidForward()
     {
         flipPage.flipX = true;
-        currentPageIndex += 2;
-        UpdatePages();
-
-        
-        flipPage.sprite = leftPage.sprite;
+        flipPage.sprite = pages[currentPageIndex];
     }
 
     void AfterForwardFlip()
     {
+        UpdateLeftPage();
         flipPage.enabled = false;
         flipPage.transform.localRotation = Quaternion.identity;
 
         isFlipping = false;
+
+        StartCooldown();
     }
 
-    
     public void PrevPage()
     {
-        if (isFlipping) return;
+        if (isFlipping || isCooldown) return;
         if (currentPageIndex - 2 < 0) return;
 
         isFlipping = true;
 
         flipPage.sprite = leftPage.sprite;
+
+        currentPageIndex -= 2;
+
+        UpdateLeftPage();
+
         flipPage.transform.localRotation = Quaternion.identity;
         flipPage.enabled = true;
 
-        flipPage.flipX= true;
+        flipPage.flipX = true;
 
         flipAnimator.SetTrigger("FlipBackwardTrigger");
 
-        
         Invoke(nameof(UpdatePageMidBackward), halfDuration);
-
-        
         Invoke(nameof(AfterBackwardFlip), animationDuration);
     }
 
-    
     void UpdatePageMidBackward()
     {
         flipPage.flipX = false;
-        currentPageIndex -= 2;
-        UpdatePages();
-
-        
-        flipPage.sprite = rightPage.sprite;
+        if (currentPageIndex + 1 < pages.Length)
+            flipPage.sprite = pages[currentPageIndex + 1];
     }
 
     void AfterBackwardFlip()
     {
+        UpdateRightPage();
         flipPage.enabled = false;
         flipPage.transform.localRotation = Quaternion.identity;
 
         isFlipping = false;
+
+        StartCooldown();
     }
 
-   
+    void StartCooldown()
+    {
+        isCooldown = true;
+        Invoke(nameof(EndCooldown), flipCooldown);
+    }
+
+    void EndCooldown()
+    {
+        isCooldown = false;
+    }
+
     void UpdatePages()
     {
         leftPage.sprite = pages[currentPageIndex];
 
+        if (currentPageIndex + 1 < pages.Length)
+            rightPage.sprite = pages[currentPageIndex + 1];
+    }
+
+    void UpdateLeftPage()
+    {
+        leftPage.sprite = pages[currentPageIndex];
+    }
+    
+    void UpdateRightPage()
+    {
         if (currentPageIndex + 1 < pages.Length)
             rightPage.sprite = pages[currentPageIndex + 1];
     }
