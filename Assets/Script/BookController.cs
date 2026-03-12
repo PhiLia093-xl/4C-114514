@@ -11,6 +11,9 @@ public class BookController : MonoBehaviour
 
     public Animator flipAnimator;
 
+    public AudioSource audioSource;
+    public AudioClip flipSound;
+
     private int currentPageIndex = 0;
     private bool isFlipping = false;
     private bool isCooldown = false;
@@ -33,6 +36,9 @@ public class BookController : MonoBehaviour
         if (currentPageIndex + 2 >= pages.Length) return;
 
         isFlipping = true;
+
+        if (audioSource && flipSound)
+            audioSource.PlayOneShot(flipSound);
 
         flipPage.sprite = rightPage.sprite;
 
@@ -73,6 +79,9 @@ public class BookController : MonoBehaviour
         if (currentPageIndex - 2 < 0) return;
 
         isFlipping = true;
+
+        if (audioSource && flipSound)
+            audioSource.PlayOneShot(flipSound);
 
         flipPage.sprite = leftPage.sprite;
 
