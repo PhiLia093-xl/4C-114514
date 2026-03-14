@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\",
   "Documents": [
     {
@@ -9,6 +10,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\unity\\\u8BA1\u8BBE\\4c-114514\\assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -25,11 +37,16 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< Updated upstream
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+=======
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "Mainmenu.cs",
               "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
               "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
@@ -38,11 +55,22 @@
               "ViewState": "AgIAABMAAAAAAAAAAAAywBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T09:36:56.607Z",
+=======
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\BookController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\BookController.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\BookController.cs",
+              "RelativeToolTip": "Assets\\Script\\BookController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvxwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:25:34.974Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
@@ -51,6 +79,16 @@
               "ViewState": "AgIAADcAAAAAAAAAAAAmwEMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T09:09:59.087Z",
+=======
+              "Title": "PreviewSystem.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PreviewSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PreviewSystem.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwBgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:34:47.638Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -58,9 +96,13 @@
               "DocumentIndex": 2,
               "Title": "ObjectDataBaseSO1.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
+<<<<<<< Updated upstream
               "RelativeDocumentMoniker": "..\\..\\..\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
               "RelativeToolTip": "..\\..\\..\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
+=======
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T15:50:51.84Z"
             }
