@@ -1,10 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\4C-114514\\",
+  "WorkspaceRootPath": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\4c-114514\\assets\\wzx\\scripts\\objectdatabaseso1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\wzx\\scripts\\objectdatabaseso1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\unity\\\u8BA1\u8BBE\\4c-114514\\assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\unity\\\u8BA1\u8BBE\\4c-114514\\assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +21,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Mainmenu.cs",
+              "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "ToolTip": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T09:36:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "ToolTip": "D:\\unity\\\u8BA1\u8BBE\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T09:09:59.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ObjectDataBaseSO1.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T15:50:51.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T15:50:51.84Z"
             }
           ]
         }

@@ -16,10 +16,10 @@ public class MainMenu : MonoBehaviour
     {
         if (string.IsNullOrEmpty(gameSceneName))
         {
-            Debug.LogError("gameSceneName 为空！请在 Inspector 填写要加载的场景名。");
+            
             return;
         }
-        SceneManager.LoadScene(gameSceneName);
+        SceneTransition.TransitionTo(gameSceneName);
     }
 
     // 打开设置：显示设置面板
