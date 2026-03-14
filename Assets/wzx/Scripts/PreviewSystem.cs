@@ -67,6 +67,7 @@ public class PreviewSystem : MonoBehaviour
             Destroy(previewObject);
             previewObject = null; 
         }
+
     }
 
     public void UpdatePosition(Vector3 position,bool validity)

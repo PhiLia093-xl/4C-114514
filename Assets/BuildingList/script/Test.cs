@@ -6,8 +6,8 @@ public class Test : MonoBehaviour
 {
   public BuildingListGenerator BuildingListGenerator;
 
-    private void Start()
+    private void Awake()
     {
-        BuildingListGenerator.OpenMenu("¹Ê¹¬");
+        BuildingListGenerator.OpenMenu("jiajutest");
     }
 }

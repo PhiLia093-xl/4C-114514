@@ -8,18 +8,20 @@ public class PlacementState : IBuildingState
     int ID;
     Grid grid;
     PreviewSystem previewSystem;
-    ObjectDataBaseSO database;
+    BuildingGroup database;
     GridData floorData;
     GridData furnitureData;
     ObjectPlacer objectPlacer;
+    public BuildingEvent buildingEvent;
 
     public PlacementState(int iD,
                           Grid grid,
                           PreviewSystem previewSystem,
-                          ObjectDataBaseSO database,
+                          BuildingGroup database,
                           GridData floorData,
                           GridData furnitureData,
-                          ObjectPlacer objectPlacer)
+                          ObjectPlacer objectPlacer,
+                          BuildingEvent buildingEvent)
     {
         ID = iD;
         this.grid = grid;
@@ -28,48 +30,51 @@ public class PlacementState : IBuildingState
         this.floorData = floorData;
         this.furnitureData = furnitureData;
         this.objectPlacer = objectPlacer;
+        this.buildingEvent = buildingEvent;
 
         //查找是否有这个ID的物体
-        selectedObjectIndex = database.objectsData.FindIndex(data => data.ID == ID);
+        selectedObjectIndex = database.buildingGroup.FindIndex(data => data.ID == ID);
         if (selectedObjectIndex > -1)
         {
             previewSystem.StartShowingPlacement(
-            database.objectsData[selectedObjectIndex].Prefab,
-            database.objectsData[selectedObjectIndex].Size);
+            database.buildingGroup[selectedObjectIndex].prefab,
+            database.buildingGroup[selectedObjectIndex].size);
         }
         else
         {
             throw new System.Exception($"No Object With ID {ID}");
         }
 
+        this.buildingEvent = buildingEvent;
     }
 
     public void EndState()
     {
         previewSystem.StopShowingPreview();
     }
-
+    
     public void OnAction(Vector3Int gridPosition)
     {
         //检查放置的有效性
         bool placementValidity = CheckPlacementValidity(gridPosition, selectedObjectIndex);
         if (placementValidity == false)
             return;
-        int index = objectPlacer.PlaceObject(database.objectsData[selectedObjectIndex].Prefab, grid.CellToWorld(gridPosition));
-        GridData selectedData = database.objectsData[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
+        int index = objectPlacer.PlaceObject(database.buildingGroup[selectedObjectIndex].prefab, grid.CellToWorld(gridPosition));
+        GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
         selectedData.AddObjectAt(gridPosition,
-            database.objectsData[selectedObjectIndex].Size,
-            database.objectsData[selectedObjectIndex].ID,
+            database.buildingGroup[selectedObjectIndex].size,
+            database.buildingGroup[selectedObjectIndex].ID,
             index);
         //放置完物体之后将该点设置为不能放置
         previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), false);
+        buildingEvent.Raise(database.buildingGroup[selectedObjectIndex]);
     }
 
     private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
     {
         //判断是地板还是建筑
-        GridData selectedData = database.objectsData[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
-        return selectedData.CanPlaceObjectAt(gridPosition, database.objectsData[selectedObjectIndex].Size);
+        GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
+        return selectedData.CanPlaceObjectAt(gridPosition, database.buildingGroup[selectedObjectIndex].size);
 
     }
 

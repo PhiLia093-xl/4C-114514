@@ -15,6 +15,9 @@ public class BuildingListGenerator : MonoBehaviour
     public Transform contentTransform; // ScrollView 的 Content
     public GameObject scrollView; // ScrollView 组件
 
+    [Header("管理器")]
+    public PlacementSystem placementSystem; //放置系统
+
     [HideInInspector]
     public List<BuildingData> currDataList; //当前显示的数据列表
 
@@ -73,7 +76,7 @@ public class BuildingListGenerator : MonoBehaviour
                 else Debug.LogError("格子预制体未设置");
                 
             }
-            slot.GetComponent<BuildingSlotUI>().Init(dataList[i]);//格子与数据分离，Init覆盖原有数据
+            slot.GetComponent<BuildingSlotUI>().Init(dataList[i],placementSystem);//格子与数据分离，Init覆盖原有数据
         }
     }
 

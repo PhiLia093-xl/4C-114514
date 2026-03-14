@@ -11,20 +11,24 @@ public class RemovingState : IBuildingState
     GridData floorData;
     GridData furnitureData;
     ObjectPlacer objectPlacer;
+    public DeleteEvent deleteEvent;
+    public BuildingGroup database;
 
     public RemovingState(Grid grid,
                          PreviewSystem previewSystem,
                          GridData floorData,
                          GridData furnitureData,
-                         ObjectPlacer objectPlacer)
+                         ObjectPlacer objectPlacer,
+                         DeleteEvent deleteEvent,BuildingGroup database)
     {
         this.grid = grid;
         this.previewSystem = previewSystem;
         this.floorData = floorData;
         this.furnitureData = furnitureData;
         this.objectPlacer = objectPlacer;
-
+        this.database = database;
         previewSystem.StartShowingRemovePreview();
+        this.deleteEvent = deleteEvent;
     }
 
     public void EndState()
@@ -52,10 +56,16 @@ public class RemovingState : IBuildingState
         else
         {
             gameObjectIndex = selectedData.GetRepresentationIndex(gridPosition);
+           
             if (gameObjectIndex == -1)
                 return;
+            int Index = database.buildingGroup.FindIndex(data => data.ID == selectedData.GetIDAtPosition(gridPosition)); //获取buildingGroup下标
+            deleteEvent.Raise(database.buildingGroup[Index]);
+
             selectedData.RemoveObjectAt(gridPosition);
             objectPlacer.RemoveObjectAt(gameObjectIndex);
+            Debug.Log(gameObjectIndex);
+            
         }
         Vector3 cellPosition = grid.CellToWorld(gridPosition);
         previewSystem.UpdatePosition(cellPosition, CheckIfSelectionIsValid(gridPosition));

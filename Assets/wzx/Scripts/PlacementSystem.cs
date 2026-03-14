@@ -14,7 +14,7 @@ public class PlacementSystem : MonoBehaviour
     private Grid grid;
 
     [SerializeField]
-    private ObjectDataBaseSO database;
+    private BuildingGroup database;
 
     [SerializeField]
     private GameObject gridVisualization;
@@ -29,6 +29,10 @@ public class PlacementSystem : MonoBehaviour
     [SerializeField]
     private ObjectPlacer objectPlacer;
 
+    [Header("ÊÂ¼þ")]
+    public BuildingEvent buildingEvent;
+    public DeleteEvent deleteEvent;
+
     IBuildingState buildingState;
 
     private void Start()
@@ -42,7 +46,7 @@ public class PlacementSystem : MonoBehaviour
     {
         StopPlacement();
         gridVisualization.SetActive(true);
-        buildingState = new PlacementState(ID,grid,preview,database,floorData,furnitureData,objectPlacer);
+        buildingState = new PlacementState(ID,grid,preview,database,floorData,furnitureData,objectPlacer,buildingEvent);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += StopPlacement;
     }
@@ -51,7 +55,7 @@ public class PlacementSystem : MonoBehaviour
     {
         StopPlacement();
         gridVisualization.SetActive(true);
-        buildingState = new RemovingState(grid, preview, floorData, furnitureData, objectPlacer);
+        buildingState = new RemovingState(grid, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnClicked += StopPlacement;
     }

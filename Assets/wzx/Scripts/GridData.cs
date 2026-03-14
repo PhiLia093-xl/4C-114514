@@ -67,6 +67,15 @@ public class GridData
             placedObjects.Remove(pos);
         }
     }
+
+    public int GetIDAtPosition(Vector3Int gridPosition)
+    {
+        if (placedObjects.ContainsKey(gridPosition) == false)
+        {
+            throw new Exception($"No object placed at this position {gridPosition}");
+        }
+        return placedObjects[gridPosition].ID;
+    }
 }
 public class PlacementData
 {
