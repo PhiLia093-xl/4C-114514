@@ -1,57 +1,101 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
+    [Header("基础设置")]
     public Image fadeImage;
     public float fadeDuration = 1f;
 
+    [Header("加载指示器")]
+    public GameObject loadingIcon;
+    [Tooltip("加载图标最短显示时间（秒）")]
+    public float minLoadingTime = 10f;
+
+    [Header("云层模糊特效")]
+    public GameObject cloudBlur;
+
     private static SceneTransition instance;
     private bool isTransitioning;
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);  // 切换场景时不销毁
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
             return;
         }
-    }
-    public static void TransitionTo(string SampleScene)
-    {
-        
-        if (!instance.isTransitioning)
-            instance.StartCoroutine(instance.TransitionRoutine(SampleScene));
+
+        if (fadeImage != null)
+        {
+            Color c = fadeImage.color;
+            c.a = 0f;
+            fadeImage.color = c;
+            fadeImage.raycastTarget = false;
+        }
     }
 
-    private IEnumerator TransitionRoutine(string SampleScene)
+    public static void TransitionTo(string sceneName)
+    {
+        if (instance == null)
+        {
+            Debug.LogError("SceneTransition 实例不存在！");
+            return;
+        }
+        if (!instance.isTransitioning)
+            instance.StartCoroutine(instance.TransitionRoutine(sceneName));
+    }
+
+    private IEnumerator TransitionRoutine(string sceneName)
     {
         isTransitioning = true;
 
-        // 1. 淡出至黑色
+        // 1. 淡出
         yield return StartCoroutine(Fade(1f));
 
-        // 2. 异步加载新场景
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SampleScene);
+        // 2. 显示图标和云层
+        if (loadingIcon != null) loadingIcon.SetActive(true);
+        if (cloudBlur != null) cloudBlur.SetActive(true);
+
+        // 3. 开始异步加载
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+        float startTime = Time.time;
+
+        // 等待加载完成
         while (!asyncLoad.isDone)
             yield return null;
 
-        // 3. 淡入
+        float elapsed = Time.time - startTime;
+        Debug.Log($"加载完成用时：{elapsed:F2} 秒");
+
+
+        if (elapsed < minLoadingTime)
+        {
+            float waitTime = minLoadingTime - elapsed;
+            Debug.Log($"额外等待 {waitTime:F2} 秒");
+            yield return new WaitForSeconds(waitTime);
+        }
+
+        // 5. 隐藏图标和云层，然后淡入
+        if (loadingIcon != null) loadingIcon.SetActive(false);
+        if (cloudBlur != null) cloudBlur.SetActive(false);
+
         yield return StartCoroutine(Fade(0f));
 
         isTransitioning = false;
-    }
+    
+}
 
     private IEnumerator Fade(float targetAlpha)
     {
-        fadeImage.raycastTarget = (targetAlpha == 1f); 
+        fadeImage.raycastTarget = (targetAlpha == 1f);
 
         float startAlpha = fadeImage.color.a;
         float elapsed = 0f;
@@ -65,20 +109,8 @@ public class SceneTransition : MonoBehaviour
             fadeImage.color = color;
             yield return null;
         }
-        
+
         color.a = targetAlpha;
         fadeImage.color = color;
-    }
-
-// Start is called before the first frame update
-void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
