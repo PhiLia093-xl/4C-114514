@@ -964,7 +964,7 @@ MonoBehaviour:
   fadeImage: {fileID: 718161897}
   fadeDuration: 1
   loadingIcon: {fileID: 1971740076}
-  minLoadingTime: 10
+  minLoadingTime: 2
   cloudBlur: {fileID: 1783413561}
 --- !u!1 &1061921976
 GameObject:
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8352941}
+  m_Color: {r: 1, g: 0.99056596, b: 0.99056596, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
