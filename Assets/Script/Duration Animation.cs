@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public string gameSceneName = "Game";
-    public void ToTheBookScence()
+    public void ToNextScence()
     {
         if (string.IsNullOrEmpty(gameSceneName))
         {
