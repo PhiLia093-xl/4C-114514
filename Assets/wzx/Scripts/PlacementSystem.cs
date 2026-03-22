@@ -87,7 +87,7 @@ public class PlacementSystem : MonoBehaviour
         buildingState.EndState();
         //inputManager.OnClicked -= PlaceStructure;
         //inputManager.OnExit -= StopPlacement;
-
+        gridVisualization.SetActive(false);
         lastDetectedPosition = Vector3Int.zero;
         buildingState = null;
     }
