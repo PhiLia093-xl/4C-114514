@@ -90,8 +90,8 @@ public class SceneTransition : MonoBehaviour
         yield return StartCoroutine(Fade(0f));
 
         isTransitioning = false;
-    
-}
+
+    }
 
     private IEnumerator Fade(float targetAlpha)
     {
