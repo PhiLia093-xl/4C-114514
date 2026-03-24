@@ -1,8 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\4C-114514\\",
+  "WorkspaceRootPath": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\script\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -88,6 +99,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\buildinglist\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 4351c5b98e476cf73be0bc1a828f14ac12c49738
     }
   ],
   "DocumentGroupContainers": [
@@ -97,6 +109,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildingManager.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingManager.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:51:06.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+=======
+>>>>>>> Stashed changes
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -233,13 +271,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4351c5b98e476cf73be0bc1a828f14ac12c49738
+>>>>>>> Stashed changes
               "Title": "BookManager.cs",
-              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\Script\\BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\BookManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BookManager.cs",
-              "ToolTip": "D:\\Github\\4C-114514\\Assets\\Script\\BookManager.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\BookManager.cs",
               "RelativeToolTip": "Assets\\Script\\BookManager.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwGAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-03-15T12:56:40.489Z",
+              "EditorCaption": ""
+=======
               "WhenOpened": "2026-03-15T12:56:40.489Z"
             },
             {
@@ -361,6 +407,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T10:37:47.17Z"
+>>>>>>> 4351c5b98e476cf73be0bc1a828f14ac12c49738
             }
           ]
         }
