@@ -413,8 +413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -426.00055, y: -238.55945}
-  m_SizeDelta: {x: 146.3274, y: 142.8426}
+  m_AnchoredPosition: {x: -566.96027, y: -160.58783}
+  m_SizeDelta: {x: 367.8964, y: 470.8243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &347552885
 MonoBehaviour:
@@ -881,9 +881,24 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cc5871c911524954ea298d0732c7bd43, type: 3}
   - {fileID: 21300000, guid: 2f85087681a801e4cad8725e0c28d7d4, type: 3}
   - {fileID: 21300000, guid: d9a59e4d5a0c46e4ea32966adf4222d8, type: 3}
-  - {fileID: 21300000, guid: 0db30db78e21d074a9a40773577bcd22, type: 3}
-  - {fileID: 21300000, guid: 80ad7d5119996a6499bc3b88a14a8bdc, type: 3}
-  - {fileID: 21300000, guid: 8681ff53033f45340a82969aca0f75c1, type: 3}
+  - {fileID: 21300000, guid: 1979934fed1c5014494e6225f5bde299, type: 3}
+  - {fileID: 21300000, guid: fa7b97711b2c63c41975c5eab9956c37, type: 3}
+  - {fileID: 21300000, guid: d73a46b6bedb25941a3f3f55c2488b13, type: 3}
+  - {fileID: 21300000, guid: b35b333b630f2c744ace842f96e549be, type: 3}
+  - {fileID: 21300000, guid: 17449ab72b5025c4e8508e25e36b01ca, type: 3}
+  - {fileID: 21300000, guid: b1154e0e6df205c47baa2858c4134e98, type: 3}
+  - {fileID: 21300000, guid: 899be67dd16877c41870935897ebd147, type: 3}
+  - {fileID: 21300000, guid: 2e337c23de0a4204586f3ce85c7e2d69, type: 3}
+  - {fileID: 21300000, guid: 19d34efe6d175044ba9d9112a4d56d15, type: 3}
+  - {fileID: 21300000, guid: def68bfe3a57e5242b89825ff8e5f3c0, type: 3}
+  - {fileID: 21300000, guid: 4d44bf18b9fe593408af8839e58a638d, type: 3}
+  - {fileID: 21300000, guid: ee37bfac1e6afca40ad1c2dd632bd966, type: 3}
+  - {fileID: 21300000, guid: 7233fee6decdd11439a88cfb6156faa6, type: 3}
+  - {fileID: 21300000, guid: dd1bb26007b52994b91f43827ba3201f, type: 3}
+  - {fileID: 21300000, guid: 3cdcbcde29520ab41930f277e627f071, type: 3}
+  - {fileID: 21300000, guid: 310452c9f381bd646999d1872725a090, type: 3}
+  - {fileID: 21300000, guid: 8c0604098205bfb48a4e067f8107e89b, type: 3}
+  - {fileID: 21300000, guid: 9015ea97d1016d64fbfb4b935b2be43e, type: 3}
   flipAnimator: {fileID: 812024455}
   audioSource: {fileID: 744155441}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
@@ -1576,8 +1591,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 401, y: -245.697}
-  m_SizeDelta: {x: 159.5249, y: 128.5587}
+  m_AnchoredPosition: {x: 420.98602, y: -143.23982}
+  m_SizeDelta: {x: 291.1967, y: 436.1196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293070917
 MonoBehaviour:
