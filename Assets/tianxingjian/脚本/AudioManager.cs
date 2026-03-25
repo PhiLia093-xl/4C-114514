@@ -1,25 +1,71 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource audioSource;  // 用于控制音频播放的 AudioSource 组件
-    public Slider volumeSlider;      // 控制音量的滑动条
+    public static AudioManager Instance;
 
-    void Start()
+    [Header("BGM")]
+    public AudioSource audioSource;
+    public AudioClip bgmClip;
+
+    [Header("Volume")]
+    public Slider volumeSlider;
+    [Range(0f, 1f)] public float defaultVolume = 0.8f;
+
+    private void Awake()
     {
-        // 设置 Slider 的初始值为当前音量
-        volumeSlider.value = audioSource.volume;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-        // 添加监听事件，当 Slider 的值变化时，调用 AdjustVolume 方法
-        volumeSlider.onValueChanged.AddListener(AdjustVolume);
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+
+        audioSource.playOnAwake = false;
+        audioSource.loop = true;
+        audioSource.volume = defaultVolume;
     }
 
-    // 调整音量的方法
-    void AdjustVolume(float volume)
+    private void Start()
     {
-        audioSource.volume = volume;  // 设置 AudioSource 的音量为 Slider 的值
+        if (volumeSlider != null)
+        {
+            volumeSlider.value = audioSource.volume;
+            volumeSlider.onValueChanged.RemoveListener(AdjustVolume);
+            volumeSlider.onValueChanged.AddListener(AdjustVolume);
+        }
+
+        PlayBGM();
     }
 
+    public void PlayBGM()
+    {
+        if (bgmClip == null)
+        {
+            return;
+        }
+
+        if (audioSource.clip != bgmClip)
+            audioSource.clip = bgmClip;
+
+        if (!audioSource.isPlaying)
+            audioSource.Play();
+    }
+
+    public void AdjustVolume(float volume)
+    {
+        if (audioSource != null)
+            audioSource.volume = volume;
+    }
 }

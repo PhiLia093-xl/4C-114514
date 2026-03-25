@@ -12,7 +12,7 @@ public class SceneTransition : MonoBehaviour
     [Header("加载指示器")]
     public GameObject loadingIcon;
     [Tooltip("加载图标最短显示时间（秒）")]
-    public float minLoadingTime = 10f;
+    public float minLoadingTime = 2f;
 
     [Header("云层模糊特效")]
     public GameObject cloudBlur;
@@ -57,44 +57,36 @@ public class SceneTransition : MonoBehaviour
     {
         isTransitioning = true;
 
-        // 1. 淡出
         yield return StartCoroutine(Fade(1f));
 
-        // 2. 显示图标和云层
         if (loadingIcon != null) loadingIcon.SetActive(true);
         if (cloudBlur != null) cloudBlur.SetActive(true);
 
-        // 3. 开始异步加载
+      
+
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
         float startTime = Time.time;
 
-        // 等待加载完成
         while (!asyncLoad.isDone)
             yield return null;
 
         float elapsed = Time.time - startTime;
-        Debug.Log($"加载完成用时：{elapsed:F2} 秒");
-
-
         if (elapsed < minLoadingTime)
-        {
-            float waitTime = minLoadingTime - elapsed;
-            Debug.Log($"额外等待 {waitTime:F2} 秒");
-            yield return new WaitForSeconds(waitTime);
-        }
+            yield return new WaitForSeconds(minLoadingTime - elapsed);
 
-        // 5. 隐藏图标和云层，然后淡入
         if (loadingIcon != null) loadingIcon.SetActive(false);
         if (cloudBlur != null) cloudBlur.SetActive(false);
 
         yield return StartCoroutine(Fade(0f));
 
         isTransitioning = false;
-
     }
 
     private IEnumerator Fade(float targetAlpha)
     {
+        if (fadeImage == null)
+            yield break;
+
         fadeImage.raycastTarget = (targetAlpha == 1f);
 
         float startAlpha = fadeImage.color.a;
