@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_GridRectangularTransparent
+  m_Name: "\u5185\u5EF7\u4E2D\u8DEF"
   m_Shader: {fileID: -6465566751694194690, guid: 39f46e51aa7fb4741a26de5875d5e74c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -30,8 +30,8 @@ Material:
     - _Thickness: 0.05
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DefaultScale: {r: 1, g: 1, b: 0, a: 0}
-    - _Size: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _DefaultScale: {r: 0.48, g: 0.48, b: 0, a: 0}
+    - _Size: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7746584391146694983
 MonoBehaviour:
