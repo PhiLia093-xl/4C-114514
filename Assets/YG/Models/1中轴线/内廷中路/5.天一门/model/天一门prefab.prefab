@@ -68,6 +68,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5929\u4E00\u95E8prefab"
       objectReference: {fileID: 0}
+    - target: {fileID: 1516057731949428924, guid: 9b47200178cf1e243b5e1a8ee5380974, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c98b4c0f8b2e8424ab1833c62e96cfed, type: 2}
+    - target: {fileID: 7156129480023273810, guid: 9b47200178cf1e243b5e1a8ee5380974, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 914b2bc0b209f114b8b38f41d496495b, type: 2}
+    - target: {fileID: 8649943633771727955, guid: 9b47200178cf1e243b5e1a8ee5380974, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1883b1df7e3ca23428b798b0e16cb1a4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

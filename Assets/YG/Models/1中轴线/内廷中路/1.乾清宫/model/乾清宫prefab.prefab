@@ -64,10 +64,26 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1265338347078040189, guid: 7c889b70c1cea0b419a1fea86440d129, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d426818908fe40d43af46fdde0e05889, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c889b70c1cea0b419a1fea86440d129, type: 3}
       propertyPath: m_Name
       value: "\u4E7E\u6E05\u5BABprefab"
       objectReference: {fileID: 0}
+    - target: {fileID: 1516057731949428924, guid: 7c889b70c1cea0b419a1fea86440d129, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff8b6327073293b41bbc4d78eda5dd84, type: 2}
+    - target: {fileID: 7156129480023273810, guid: 7c889b70c1cea0b419a1fea86440d129, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e48e6534e7308704aa8ba88c6cde2194, type: 2}
+    - target: {fileID: 8649943633771727955, guid: 7c889b70c1cea0b419a1fea86440d129, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28e210efee2617f41a69e250435f056d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
