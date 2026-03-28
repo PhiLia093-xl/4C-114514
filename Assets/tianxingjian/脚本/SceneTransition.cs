@@ -105,4 +105,43 @@ public class SceneTransition : MonoBehaviour
         color.a = targetAlpha;
         fadeImage.color = color;
     }
+
+
+    public static void TransitionTo()
+    {
+        if (instance == null)
+        {
+            Debug.LogError("SceneTransition ÊµÀý²»´æÔÚ£¡");
+            return;
+        }
+        if (!instance.isTransitioning)
+            instance.StartCoroutine(instance.TransitionRoutine());
+    }
+
+    private IEnumerator TransitionRoutine()
+    {
+        isTransitioning = true;
+
+        yield return StartCoroutine(Fade(1f));
+
+        if (loadingIcon != null) loadingIcon.SetActive(true);
+        if (cloudBlur != null) cloudBlur.SetActive(true);
+
+
+
+        float startTime = Time.time;
+
+        float elapsed = Time.time - startTime;
+        if (elapsed < minLoadingTime)
+            yield return new WaitForSeconds(minLoadingTime - elapsed);
+
+        if (loadingIcon != null) loadingIcon.SetActive(false);
+        if (cloudBlur != null) cloudBlur.SetActive(false);
+
+        yield return StartCoroutine(Fade(0f));
+
+        isTransitioning = false;
+    }
+
+
 }
