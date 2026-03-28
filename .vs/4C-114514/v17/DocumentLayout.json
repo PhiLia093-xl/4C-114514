@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\script\\fixedheightcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\fixedheightcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +22,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,7 +40,23 @@
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\syncgridtoshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\syncgridtoshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -113,24 +138,48 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+<<<<<<< Updated upstream
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+=======
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GizeMesh.shader",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Shader\\GizeMesh.shader",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Shader\\GizeMesh.shader",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Shader\\GizeMesh.shader",
+              "RelativeToolTip": "Assets\\wzx\\Shader\\GizeMesh.shader",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-26T14:42:01.222Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "FixedHeightCameraController.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\FixedHeightCameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\FixedHeightCameraController.cs",
               "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\FixedHeightCameraController.cs",
               "RelativeToolTip": "Assets\\Script\\FixedHeightCameraController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAiwCsAAAAVAAAAAAAAAA==",
+=======
+              "Title": "MeshInstance.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwMMAAAAFAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T09:13:15.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "SyncGridToShader.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
@@ -167,6 +216,20 @@
             },
             {
               "$type": "Document",
+=======
+              "DocumentIndex": 4,
+              "Title": "BuildingData.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingData.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:13:47.995Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 15,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
@@ -179,18 +242,51 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\InputManager.cs",
               "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
               "RelativeToolTip": "Assets\\wzx\\Scripts\\InputManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:23:12.709Z"
+              "WhenOpened": "2026-03-14T09:23:12.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 2,
+              "Title": "PlacementSystem.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:21:46.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SyncGridToShader.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:50:32.703Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 7,
               "Title": "PlacementState.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
@@ -227,7 +323,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "ObjectPlacer.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\ObjectPlacer.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectPlacer.cs",
@@ -239,6 +339,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "PlacementSystem.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
@@ -251,6 +352,8 @@
             },
             {
               "$type": "Document",
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 9,
               "Title": "BuildingManager.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
