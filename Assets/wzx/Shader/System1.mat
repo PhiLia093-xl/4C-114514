@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_GridRectangularTransparent
-  m_Shader: {fileID: -6465566751694194690, guid: 39f46e51aa7fb4741a26de5875d5e74c, type: 3}
-  m_Parent: {fileID: 0}
+  m_Name: System1
+  m_Shader: {fileID: 4800000, guid: 149721adf5a4c2a4081a9c8098bfc679, type: 3}
+  m_Parent: {fileID: 2100000, guid: adf536f6b1d63704080860b283a57005, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -25,15 +25,9 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _CellSize: 20
-    - _Thickness: 0.05
+    - _LineThickness: 0.02
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DefaultScale: {r: 1, g: 1, b: 0, a: 0}
-    - _GridOffset: {r: 870.1, g: 0.1, b: 983.9, a: 0}
-    - _Size: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _GridSize: {r: 5, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7746584391146694983
 MonoBehaviour:
