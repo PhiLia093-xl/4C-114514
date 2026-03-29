@@ -869,7 +869,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: jiajutest
+          m_StringArgument: "\u5185\u5EF7\u4E2D\u8DEF"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &645685201
@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputManager: {fileID: 870885067}
   grid: {fileID: 503604833}
-  database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
+  database: {fileID: 11400000, guid: 08ddf1e977a720243b764fd8e7b2ffca, type: 2}
   gridVisualization: {fileID: 1426729053}
   preview: {fileID: 256410036}
   objectPlacer: {fileID: 1251226259}
