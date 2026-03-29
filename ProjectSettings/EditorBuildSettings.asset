@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BookScence.unity
     guid: 8901971660611294b910d5b5cccf28ce
   - enabled: 1
-    path: "Assets/Scenes/\u653E\u7F6E\u6D4B\u8BD5\u573A\u666F.unity"
+    path: "Assets/YG/\u653E\u7F6E\u6D4B\u8BD5\u573A\u666F.unity"
     guid: c55465d8e21de464cba3692a2532dda1
   - enabled: 1
     path: Assets/Scenes/TestBuildingList.unity
