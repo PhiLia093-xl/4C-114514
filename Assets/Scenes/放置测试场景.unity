@@ -3263,6 +3263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingGroups:
   - {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
+  - {fileID: 11400000, guid: 08ddf1e977a720243b764fd8e7b2ffca, type: 2}
   slotPrefab: {fileID: 3142486100520253345, guid: 235766e91e4f4a4438c550e7441dd217, type: 3}
   contentTransform: {fileID: 297430401}
   scrollView: {fileID: 766819950}
