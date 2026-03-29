@@ -1,112 +1,198 @@
 using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
+public class InteractableZone
+{
+    public string zoneName;
+
+    [Header("触发范围")]
+    public Vector2 xRange;
+    public Vector2 zRange;
+
+    [Header("交互对象")]
+    public GameObject targetObject;
+
+    [Header("摄像机目标变换")]
+    public Vector3 targetPosition;
+    public Vector3 targetRotation;
+}
+
 public class CameraController : MonoBehaviour
 {
-    [Header("移动设置")]
-    public float moveSpeed = 20f;
-    public float transitionDuration = 1.2f; // 平滑移动时间
+    [Header("漫游视角控制")]
+    public float moveSpeed = 15f; // WASD 移动速度
+    public float lookSpeed = 3f;  // 鼠标拖拽旋转速度
 
-    [Header("视角区域 1: BuildingSystem1")]
-    public GameObject buildingSystem1;
-    private readonly Vector3 targetPos1 = new Vector3(741.9f, 200f, 350f);
-    private readonly Quaternion targetRot1 = Quaternion.Euler(50f, 0f, 0f);
+    [Header("区域配置列表")]
+    public InteractableZone[] zones;
 
-    [Header("视角区域 2: 内廷中路")]
-    public GameObject innerCourtMiddle; // 在检查器里把“内廷中路”物体拖到这里
-    private readonly Vector3 targetPos2 = new Vector3(753f, 150f, 950f); // 图片中的位置
-    private readonly Quaternion targetRot2 = Quaternion.Euler(57f, 0f, 0f); // 图片中的旋转
+    [Header("通用设置")]
+    public float transitionSpeed = 2.0f;
 
-    // 内部状态变量
+    // 状态记录
     private Vector3 beforePos;
     private Quaternion beforeRot;
-    private GameObject currentActiveObject; // 记录当前通过 F 键激活了哪个物体
-    private bool isLocked = false;
-    private bool isTransitioning = false;
+    private bool isInteracting = false;
+    private bool isMoving = false;
+    private InteractableZone currentActiveZone;
+
+    // 用于自由视角的内部旋转变量
+    private float yaw = 0f;
+    private float pitch = 0f;
+
+    void Start()
+    {
+        // 游戏开始时，同步当前摄像机的真实角度，防止第一次点击鼠标时镜头乱飞
+        SyncRotationVariables();
+    }
 
     void Update()
     {
-        if (isTransitioning) return;
+        // 如果正在执行平滑移动，禁用所有操作
+        if (isMoving) return;
 
-        if (!isLocked)
+        if (!isInteracting)
         {
-            HandleStandardMovement();
-            CheckForActivationInput();
+            // 1. 自由漫游控制
+            HandleFreeMovement();
+
+            // 2. 检测交互
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                InteractableZone zoneToEnter = CheckPlayerPosition();
+                if (zoneToEnter != null)
+                {
+                    StartCoroutine(EnterInteraction(zoneToEnter));
+                }
+            }
         }
         else
         {
-            CheckForDeactivationInput();
+            // 如果正在交互状态，按 Esc 键退出
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                StartCoroutine(ExitInteraction());
+            }
         }
     }
 
-    void HandleStandardMovement()
+    // 处理 WASD 移动和鼠标拖拽旋转
+    private void HandleFreeMovement()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-        Vector3 moveDir = new Vector3(h, 0, v);
-        transform.Translate(moveDir * moveSpeed * Time.deltaTime, Space.World);
+        // --- 鼠标拖拽旋转 ---
+        // 0 代表鼠标左键，1 代表右键。你可以根据需求改为 Input.GetMouseButton(1)
+        if (Input.GetMouseButton(0))
+        {
+            yaw += lookSpeed * Input.GetAxis("Mouse X");
+            pitch -= lookSpeed * Input.GetAxis("Mouse Y");
+
+            // 限制俯仰角在 -85 到 85 度之间，防止镜头“翻跟头”
+            pitch = Mathf.Clamp(pitch, -85f, 85f);
+
+            transform.eulerAngles = new Vector3(pitch, yaw, 0f);
+        }
+
+        // --- WASD 纯水平移动 ---
+        float h = Input.GetAxis("Horizontal"); // A/D 键
+        float v = Input.GetAxis("Vertical");   // W/S 键
+
+        // 提取摄像机的前方和右方，并将 Y 轴设为 0，确保只在水平面上移动，不会飞天遁地
+        Vector3 forward = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
+        Vector3 right = new Vector3(transform.right.x, 0, transform.right.z).normalized;
+
+        if (h != 0 || v != 0)
+        {
+            Vector3 moveDir = (forward * v + right * h).normalized;
+            transform.position += moveDir * moveSpeed * Time.deltaTime;
+        }
     }
 
-    void CheckForActivationInput()
+    private InteractableZone CheckPlayerPosition()
     {
-        if (!Input.GetKeyDown(KeyCode.F)) return;
-
         float x = transform.position.x;
         float z = transform.position.z;
 
-        // 检测区域 1: BuildingSystem1
-        if (x >= 626f && x <= 874f && z >= 350f && z <= 845f)
+        foreach (var zone in zones)
         {
-            EnterSpecialView(buildingSystem1, targetPos1, targetRot1);
+            if (x >= zone.xRange.x && x <= zone.xRange.y &&
+                z >= zone.zRange.x && z <= zone.zRange.y)
+            {
+                return zone;
+            }
         }
-        // 检测区域 2: 内廷中路 (新需求)
-        else if (x >= 680f && x <= 826f && z >= 863f && z <= 1230f)
-        {
-            EnterSpecialView(innerCourtMiddle, targetPos2, targetRot2);
-        }
+        return null;
     }
 
-    // 进入特殊视角的通用方法
-    void EnterSpecialView(GameObject objToActivate, Vector3 destination, Quaternion destRotation)
+    private IEnumerator EnterInteraction(InteractableZone zone)
     {
+        isMoving = true;
+        currentActiveZone = zone;
+
+        // 记录进入交互前的位置和旋转
         beforePos = transform.position;
         beforeRot = transform.rotation;
-        currentActiveObject = objToActivate;
 
-        if (currentActiveObject != null) currentActiveObject.SetActive(true);
-        StartCoroutine(SmoothMove(destination, destRotation, true));
+        if (zone.targetObject != null) zone.targetObject.SetActive(true);
+
+        yield return StartCoroutine(MoveCamera(zone.targetPosition, Quaternion.Euler(zone.targetRotation)));
+
+        isInteracting = true;
+        isMoving = false;
     }
 
-    void CheckForDeactivationInput()
+    private IEnumerator ExitInteraction()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            // 关闭当前记录的激活物体
-            if (currentActiveObject != null) currentActiveObject.SetActive(false);
+        if (currentActiveZone == null) yield break;
 
-            // 回到记录的 BeforePos
-            StartCoroutine(SmoothMove(beforePos, beforeRot, false));
-        }
+        isMoving = true;
+
+        if (currentActiveZone.targetObject != null) currentActiveZone.targetObject.SetActive(false);
+
+        // 回到按下 F 键前的位置
+        yield return StartCoroutine(MoveCamera(beforePos, beforeRot));
+
+        // 【关键】退回原位后，重新同步 yaw 和 pitch 数值
+        // 否则你退回来后一拖鼠标，镜头会瞬间闪回你按 F 时的欧拉角
+        SyncRotationVariables();
+
+        isInteracting = false;
+        isMoving = false;
+        currentActiveZone = null;
     }
 
-    IEnumerator SmoothMove(Vector3 destination, Quaternion destRotation, bool locking)
+    private IEnumerator MoveCamera(Vector3 destination, Quaternion destRotation)
     {
-        isTransitioning = true;
-        float elapsed = 0f;
+        float elapsedTime = 0;
+        float duration = 1.0f / transitionSpeed;
+
         Vector3 startPos = transform.position;
         Quaternion startRot = transform.rotation;
 
-        while (elapsed < transitionDuration)
+        while (elapsedTime < duration)
         {
-            transform.position = Vector3.Lerp(startPos, destination, elapsed / transitionDuration);
-            transform.rotation = Quaternion.Slerp(startRot, destRotation, elapsed / transitionDuration);
-            elapsed += Time.deltaTime;
+            float t = elapsedTime / duration;
+            t = t * t * (3f - 2f * t); // 平滑步进
+
+            transform.position = Vector3.Lerp(startPos, destination, t);
+            transform.rotation = Quaternion.Slerp(startRot, destRotation, t);
+
+            elapsedTime += Time.deltaTime;
             yield return null;
         }
 
         transform.position = destination;
         transform.rotation = destRotation;
-        isLocked = locking;
-        isTransitioning = false;
+    }
+
+    // 同步内部旋转变量与摄像机实际旋转，防止数值断层导致镜头闪烁
+    private void SyncRotationVariables()
+    {
+        Vector3 angles = transform.eulerAngles;
+        pitch = angles.x;
+        yaw = angles.y;
+
+        // Unity 的欧拉角 x 有时会返回 350 之类的数值（代表 -10 度），这里将其标准化
+        if (pitch > 180f) pitch -= 360f;
     }
 }
