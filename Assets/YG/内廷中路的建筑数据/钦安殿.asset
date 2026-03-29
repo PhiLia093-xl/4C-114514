@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingName: "\u94A6\u5B89\u6BBF"
   icon: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 7584822662761937916, guid: 8bb45ccc58d0f024fb773c8237bde19c, type: 3}
   maxCount: 1
   ID: 5
   size: {x: 1, y: 1}
