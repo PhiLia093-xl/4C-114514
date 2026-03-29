@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157458718}
   m_Layer: 0
-  m_Name: BuildingSystem3
+  m_Name: "\u4E1C\u516D\u5BAB"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,7 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 303306689}
   m_Layer: 0
-  m_Name: BuildingSystem6
+  m_Name: "\u5185\u5EF7\u897F\u8DEF"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3258,7 +3258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1777402722}
   m_Layer: 0
-  m_Name: BuildingSystem5
+  m_Name: "\u897F\u516D\u5BAB"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
