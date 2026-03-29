@@ -6,45 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Scene.unity
+    path: Assets/tianxingjian/Main Scene.unity
     guid: 169a6a7ba62c80e488f32ee4ad86eea6
   - enabled: 1
-    path: Assets/Scenes/Fobbiden City.unity
+    path: Assets/WXY/Fobbiden City.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/BookScence.unity
+    path: Assets/WXY/BookScence.unity
     guid: 8901971660611294b910d5b5cccf28ce
   - enabled: 1
     path: "Assets/YG/\u653E\u7F6E\u6D4B\u8BD5\u573A\u666F.unity"
     guid: c55465d8e21de464cba3692a2532dda1
   - enabled: 1
-    path: Assets/Scenes/TestBuildingList.unity
+    path: Assets/WXY/TestBuildingList.unity
     guid: ab03449f8f4a30749bf47a5c7f6a8629
   - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/1.unity"
-    guid: 5b99af2884a5cdd49a44b356909dd775
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/2.unity"
-    guid: f673819f18b3a8a4aaa015efdc72fd52
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/3.unity"
-    guid: 82e2eae4a952e5246b6b4d1e950ba9f0
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/4.unity"
-    guid: 9f5a74c421fdca545a308202faafd520
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/5.unity"
-    guid: 9f93d392fd4f32d4380e8d208265a279
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/6.unity"
-    guid: 36df99aeae56601468b7b495a1c989d9
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/7.unity"
-    guid: 453ed338ded355c47b60e829f1dd2419
-  - enabled: 1
-    path: "Assets/Scenes/\u6240\u6709\u4E66\u7684\u573A\u666F/8.unity"
-    guid: fc7c95801ca549141b6f105e29c91b2e
-  - enabled: 1
-    path: Assets/Scenes/BookChangeScence.unity
-    guid: e151dbd408c830f4bb4b9036633ffddd
+    path: Assets/YG/Scene.unity
+    guid: 8852d27f1349f0b4fa299360efe09582
   m_configObjects: {}
