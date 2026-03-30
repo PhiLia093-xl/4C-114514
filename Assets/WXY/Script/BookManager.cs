@@ -1,19 +1,19 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class BookManager : MonoBehaviour
 {
-    public Button[] books = new Button[8];
-    private bool[] unlocked = new bool[8];
-    private bool[] finished = new bool[8];
+    public Button[] books = new Button[6]; // â­æ”¹æˆ6æœ¬
+
+    private bool[] unlocked = new bool[6];
+    private bool[] finished = new bool[6];
 
     void Start()
     {
         RefreshAll();
     }
 
-    // ·â×°Ë¢ĞÂÂß¼­£¬·½±ã³õÊ¼»¯ºÍÖØÖÃÊ±µ÷ÓÃ
     void RefreshAll()
     {
         LoadData();
@@ -25,27 +25,38 @@ public class BookManager : MonoBehaviour
     {
         for (int i = 0; i < books.Length; i++)
         {
-            // ¶ÁÈ¡Ã¿±¾ÊéµÄÍê³É×´Ì¬ (0: Î´Íê³É, 1: ÒÑÍê³É)
-            finished[i] = PlayerPrefs.GetInt("BookFinished_" + i, 0) == 1;
+            // â­æ˜¯å¦â€œè¯»è¿‡â€ï¼ˆç‚¹å‡»è¿›å…¥è¿‡ï¼‰
+            finished[i] = PlayerPrefs.GetInt("BookVisited_" + i, 0) == 1;
         }
     }
 
     void UpdateUnlockStatus()
     {
-        // µÚÒ»±¾ÊéÄ¬ÈÏÓÀÔ¶½âËø
+        // åˆå§‹åŒ–å…¨éƒ¨é”å®š
+        for (int i = 0; i < unlocked.Length; i++)
+            unlocked[i] = false;
+
+        // â­ç¬¬1æœ¬æ°¸è¿œè§£é”
         unlocked[0] = true;
 
-        // ´ÓµÚ¶ş±¾Êé¿ªÊ¼Ñ­»·£ºÈç¹ûÇ°Ò»±¾ÊéÍê³ÉÁË£¬Ôòµ±Ç°Êé½âËø
-        for (int i = 1; i < books.Length; i++)
+        // â­è¯»å®Œç¬¬1æœ¬ â†’ è§£é”ç¬¬2æœ¬
+        if (finished[0])
         {
-            if (finished[i - 1])
-            {
-                unlocked[i] = true;
-            }
-            else
-            {
-                unlocked[i] = false;
-            }
+            unlocked[1] = true;
+        }
+
+        // â­è¯»å®Œç¬¬2æœ¬ â†’ è§£é”ç¬¬3ã€4æœ¬
+        if (finished[1])
+        {
+            unlocked[2] = true;
+            unlocked[3] = true;
+        }
+
+        // â­è¯»å®Œç¬¬3å’Œç¬¬4æœ¬ â†’ è§£é”ç¬¬5ã€6æœ¬
+        if (finished[2] && finished[3])
+        {
+            unlocked[4] = true;
+            unlocked[5] = true;
         }
     }
 
@@ -53,10 +64,8 @@ public class BookManager : MonoBehaviour
     {
         for (int i = 0; i < books.Length; i++)
         {
-            // ÉèÖÃ°´Å¥ÊÇ·ñ¿Éµã»÷
             books[i].interactable = unlocked[i];
 
-            // ½ø½×£ºÄã¿ÉÒÔ¸ù¾İ½âËø×´Ì¬¸Ä±äÑÕÉ«»òÍ¸Ã÷¶È
             Image img = books[i].GetComponent<Image>();
             if (img != null)
             {
@@ -69,29 +78,31 @@ public class BookManager : MonoBehaviour
     {
         if (index < 0 || index >= books.Length || !unlocked[index])
         {
-            Debug.Log("Õâ±¾Êé»¹Ã»½âËø»òË÷Òı´íÎó");
+            Debug.Log("è¿™æœ¬ä¹¦è¿˜æ²¡è§£é”æˆ–ç´¢å¼•é”™è¯¯");
             return;
         }
 
+        // â­å…³é”®ï¼šç‚¹å‡»å°±ç®—â€œè¯»è¿‡â€
+        PlayerPrefs.SetInt("BookVisited_" + index, 1);
+
         PlayerPrefs.SetInt("ReadingBook", index);
+        PlayerPrefs.Save();
+
         SceneManager.LoadScene("ReadScene");
     }
 
-    // --- ĞÂÔö¹¦ÄÜ£ºÖØÖÃ°´Å¥µ÷ÓÃ´Ë·½·¨ ---
     public void ResetProgress()
     {
-        // É¾³ıËùÓĞÏà¹ØµÄ PlayerPrefs ¼ü
         for (int i = 0; i < books.Length; i++)
         {
-            PlayerPrefs.DeleteKey("BookFinished_" + i);
+            PlayerPrefs.DeleteKey("BookVisited_" + i);
         }
 
         PlayerPrefs.DeleteKey("ReadingBook");
-        PlayerPrefs.Save(); // Ç¿ÖÆ±£´æ¸ü¸Ä
+        PlayerPrefs.Save();
 
-        Debug.Log("½ø¶ÈÒÑÖØÖÃ");
+        Debug.Log("è¿›åº¦å·²é‡ç½®");
 
-        // ÖØĞÂË¢ĞÂÊı¾İºÍUI
         RefreshAll();
     }
 }
