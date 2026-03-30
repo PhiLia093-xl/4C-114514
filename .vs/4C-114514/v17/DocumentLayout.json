@@ -3,11 +3,79 @@
   "WorkspaceRootPath": "F:\\unitycode\\Building\\4C-114514\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wxy\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|f:\\unitycode\\building\\4c-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\syncgridtoshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\syncgridtoshader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\objectdatabaseso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectdatabaseso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,35 +83,7 @@
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\griddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,6 +101,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|F:\\unitycode\\Building\\4C-114514\\assets\\buildinglist\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\Script\\BuildModeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\Script\\Duration Animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\Script\\BookManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\4C-114514\\Assets\\Script\\ReadSceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,11 +129,165 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\BookController.cs",
+              "RelativeDocumentMoniker": "Assets\\WXY\\Script\\BookController.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\BookController.cs",
+              "RelativeToolTip": "Assets\\WXY\\Script\\BookController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:37:09.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:50:26.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BuildModeController.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\Script\\BuildModeController.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\Script\\BuildModeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:46:50.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GizeMesh.shader",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Shader\\GizeMesh.shader",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Shader\\GizeMesh.shader",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Shader\\GizeMesh.shader",
+              "RelativeToolTip": "Assets\\wzx\\Shader\\GizeMesh.shader",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-26T14:42:01.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeshInstance.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIBJwE8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:33:00.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BuildingData.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingData.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:13:47.995Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BuildingListGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwD4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:25:37.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\NewBehaviourScript.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\NewBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:49:01.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T09:44:34.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\InputManager.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\InputManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:23:12.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlacementSystem.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:21:46.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SyncGridToShader.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:50:32.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlacementState.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementState.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementState.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIAwwD0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:27:08.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "GridData.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\GridData.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\GridData.cs",
@@ -102,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ObjectPlacer.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\ObjectPlacer.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectPlacer.cs",
@@ -114,7 +323,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
+              "Title": "BuildingManager.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingManager.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:51:06.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObjectDataBaseSO.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
+              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
+              "RelativeToolTip": "Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T12:30:17.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Script\\NewBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T09:52:15.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Duration Animation.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\Script\\Duration Animation.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\Script\\Duration Animation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T09:56:48.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\Script\\BookManager.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\Script\\BookManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:56:40.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReadSceneManager.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\Script\\ReadSceneManager.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\Script\\ReadSceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T13:07:07.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "PreviewSystem.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\PreviewSystem.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
@@ -139,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "IBuildingState.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\IBuildingState.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\IBuildingState.cs",
@@ -151,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "BuildingEvent.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingEvent.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingEvent.cs",
@@ -175,56 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BuildingListGenerator.cs",
-              "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ToolTip": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDYAAAAvAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO8SURBVEhL7ZTBTxtXEMa/93a967rYFgQDckw52EolkKIoakVysntK2t6iePkLcoh6SBpOzik55lBXHEBKlUuT28IpBxSInLhRCIgolBIRZHAKyMbYWeyYxWDv4rfTS0yVSFV7rvhJI81hvvn03owGOOZ/D2slq6urqqVaoefbz9XUWgrZShY1uwZFURDpiEBRFGNiaMIAgIJZCBQrxcDN1E1ka1lj8ttJ09/lD91fuq/e/f2uBSCfvZa1AIC3DCzVCgkmkiDoTGY6l7nOZa5LTNI547qLXPFWrdtxxx04Ojh0Tjzu7/KHJEhJckjnxJPUpN5WLQOA17nXseJB8fLL/EutdFAK1Owa/KofiqRA5jJkLoOB3b4yeGXU7bjjjzcexxe2F2JPNp6gXC\u002BnQ97QcrQvqmXKmcCr7VcGZ3ycg49nfsykZQDYaezEKvXKD89yz\u002BBVvDjdfdo603Mm3\u002BXpshgYtva2YAvb8Dgen\u002BDiQmGvMPAi/wKmZYKIBkq1Um96M\u002B3bt/dBRD7G2AUiegMgLQFAz3c9sfXd9ZjZMBHti\u002BLSl5c2PYrnRhPNX8Awvn\u002BwP96k5vzZvrNGrVGbO\u002BE\u002B4esP9H\u002B9srOCml37VRvQxq5\u002BdfWcINGRKWc2GdgNR3KmKo8qBzIALL1bgiqpOOk9CY/Lk\u002B5p65kgolmfz2e0/hIAhjAEANnybtlw4ECRFHBw4/q561kQrJnPZsDALE78beZaxkBryAWzgGqjiqA3iPph/Tev1zv6aXN82LRStRTOmbnOnJmDLWw4cDpHZkfCmXJGfV9/DwKpDnPCkZFI4MhA5jIkLh0N9J9obcvTjadaci6Jwl4BTdHU9BU9mUgleqf/nEbTaYYI9BMnHkfLoNPTiTZXG0r7JWxUNz7te4TgwuTgU0FvcPl86Dy8qheMs\u002BXuz7unon1RM9weBmPMJNA0I/YGAGQAONVxCofOIfJmHgTqTEwm\u002Bge/GESH0gEbNjYrm4ANI\u002BgLGgDGjKrBwu3hrsXSInbruxMP4w8fCS567y3ciyyWFt8KIX5eG17LHhlcjFyEcWDgwR8PIEuyBo6YRBI455AcCbIko\u002BFqjAEYAwCVq7qASAOAIznvfD6faZjGMAlShRAWk1mu9WoGALPrs7HiXvHyXG5Oq9rVwKFziHZ3O9yyGy7JBYUrYIzdTnyTuNUS/leOblFqNRUmouT81nxkJjeDYq0IAsGv\u002BtEf6Eeb3DZ25/s7ox/L/52/bxGsfPOwOcyJa60QJDQ40Aikccb1j6XHHPOBvwBFmMRhXMHP0QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-03-12T10:25:37.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BuildingData.cs",
-              "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingData.cs",
-              "ToolTip": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
-              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingData.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:13:47.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlacementState.cs",
-              "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementState.cs",
-              "ToolTip": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementState.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAIAzwD0AAAAiAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO8SURBVEhL7ZTBTxtXEMa/93a967rYFgQDckw52EolkKIoakVysntK2t6iePkLcoh6SBpOzik55lBXHEBKlUuT28IpBxSInLhRCIgolBIRZHAKyMbYWeyYxWDv4rfTS0yVSFV7rvhJI81hvvn03owGOOZ/D2slq6urqqVaoefbz9XUWgrZShY1uwZFURDpiEBRFGNiaMIAgIJZCBQrxcDN1E1ka1lj8ttJ09/lD91fuq/e/f2uBSCfvZa1AIC3DCzVCgkmkiDoTGY6l7nOZa5LTNI547qLXPFWrdtxxx04Ojh0Tjzu7/KHJEhJckjnxJPUpN5WLQOA17nXseJB8fLL/EutdFAK1Owa/KofiqRA5jJkLoOB3b4yeGXU7bjjjzcexxe2F2JPNp6gXC\u002BnQ97QcrQvqmXKmcCr7VcGZ3ycg49nfsykZQDYaezEKvXKD89yz\u002BBVvDjdfdo603Mm3\u002BXpshgYtva2YAvb8Dgen\u002BDiQmGvMPAi/wKmZYKIBkq1Um96M\u002B3bt/dBRD7G2AUiegMgLQFAz3c9sfXd9ZjZMBHti\u002BLSl5c2PYrnRhPNX8Awvn\u002BwP96k5vzZvrNGrVGbO\u002BE\u002B4esP9H\u002B9srOCml37VRvQxq5\u002BdfWcINGRKWc2GdgNR3KmKo8qBzIALL1bgiqpOOk9CY/Lk\u002B5p65kgolmfz2e0/hIAhjAEANnybtlw4ECRFHBw4/q561kQrJnPZsDALE78beZaxkBryAWzgGqjiqA3iPph/Tev1zv6aXN82LRStRTOmbnOnJmDLWw4cDpHZkfCmXJGfV9/DwKpDnPCkZFI4MhA5jIkLh0N9J9obcvTjadaci6Jwl4BTdHU9BU9mUgleqf/nEbTaYYI9BMnHkfLoNPTiTZXG0r7JWxUNz7te4TgwuTgU0FvcPl86Dy8qheMs\u002BXuz7unon1RM9weBmPMJNA0I/YGAGQAONVxCofOIfJmHgTqTEwm\u002Bge/GESH0gEbNjYrm4ANI\u002BgLGgDGjKrBwu3hrsXSInbruxMP4w8fCS567y3ciyyWFt8KIX5eG17LHhlcjFyEcWDgwR8PIEuyBo6YRBI455AcCbIko\u002BFqjAEYAwCVq7qASAOAIznvfD6faZjGMAlShRAWk1mu9WoGALPrs7HiXvHyXG5Oq9rVwKFziHZ3O9yyGy7JBYUrYIzdTnyTuNUS/leOblFqNRUmouT81nxkJjeDYq0IAsGv\u002BtEf6Eeb3DZ25/s7ox/L/52/bxGsfPOwOcyJa60QJDQ40Aikccb1j6XHHPOBvwBFmMRhXMHP0QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-03-14T09:27:08.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlacementSystem.cs",
-              "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ToolTip": "F:\\unitycode\\Building\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEgAAAAtAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO8SURBVEhL7ZTBTxtXEMa/93a967rYFgQDckw52EolkKIoakVysntK2t6iePkLcoh6SBpOzik55lBXHEBKlUuT28IpBxSInLhRCIgolBIRZHAKyMbYWeyYxWDv4rfTS0yVSFV7rvhJI81hvvn03owGOOZ/D2slq6urqqVaoefbz9XUWgrZShY1uwZFURDpiEBRFGNiaMIAgIJZCBQrxcDN1E1ka1lj8ttJ09/lD91fuq/e/f2uBSCfvZa1AIC3DCzVCgkmkiDoTGY6l7nOZa5LTNI547qLXPFWrdtxxx04Ojh0Tjzu7/KHJEhJckjnxJPUpN5WLQOA17nXseJB8fLL/EutdFAK1Owa/KofiqRA5jJkLoOB3b4yeGXU7bjjjzcexxe2F2JPNp6gXC\u002BnQ97QcrQvqmXKmcCr7VcGZ3ycg49nfsykZQDYaezEKvXKD89yz\u002BBVvDjdfdo603Mm3\u002BXpshgYtva2YAvb8Dgen\u002BDiQmGvMPAi/wKmZYKIBkq1Um96M\u002B3bt/dBRD7G2AUiegMgLQFAz3c9sfXd9ZjZMBHti\u002BLSl5c2PYrnRhPNX8Awvn\u002BwP96k5vzZvrNGrVGbO\u002BE\u002B4esP9H\u002B9srOCml37VRvQxq5\u002BdfWcINGRKWc2GdgNR3KmKo8qBzIALL1bgiqpOOk9CY/Lk\u002B5p65kgolmfz2e0/hIAhjAEANnybtlw4ECRFHBw4/q561kQrJnPZsDALE78beZaxkBryAWzgGqjiqA3iPph/Tev1zv6aXN82LRStRTOmbnOnJmDLWw4cDpHZkfCmXJGfV9/DwKpDnPCkZFI4MhA5jIkLh0N9J9obcvTjadaci6Jwl4BTdHU9BU9mUgleqf/nEbTaYYI9BMnHkfLoNPTiTZXG0r7JWxUNz7te4TgwuTgU0FvcPl86Dy8qheMs\u002BXuz7unon1RM9weBmPMJNA0I/YGAGQAONVxCofOIfJmHgTqTEwm\u002Bge/GESH0gEbNjYrm4ANI\u002BgLGgDGjKrBwu3hrsXSInbruxMP4w8fCS567y3ciyyWFt8KIX5eG17LHhlcjFyEcWDgwR8PIEuyBo6YRBI455AcCbIko\u002BFqjAEYAwCVq7qASAOAIznvfD6faZjGMAlShRAWk1mu9WoGALPrs7HiXvHyXG5Oq9rVwKFziHZ3O9yyGy7JBYUrYIzdTnyTuNUS/leOblFqNRUmouT81nxkJjeDYq0IAsGv\u002BtEf6Eeb3DZ25/s7ox/L/52/bxGsfPOwOcyJa60QJDQ40Aikccb1j6XHHPOBvwBFmMRhXMHP0QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-03-14T09:21:46.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "BuildingSlotUI.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\BuildingSlotUI.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingSlotUI.cs",
@@ -236,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Test.cs",
               "DocumentMoniker": "F:\\unitycode\\Building\\4C-114514\\Assets\\BuildingList\\script\\Test.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\Test.cs",
