@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
 using UnityEngine.UI;
 
 public class BookController : MonoBehaviour
@@ -9,10 +8,9 @@ public class BookController : MonoBehaviour
     public SpriteRenderer flipPage;
     private RectTransform rt;
 
+    public Camera uiCamera; // ⭐主摄像机
+
     public Sprite[] pages;
-
-
-    //public Animator flipAnimator;
 
     public AudioSource audioSource;
     public AudioClip flipSound;
@@ -21,27 +19,27 @@ public class BookController : MonoBehaviour
     private bool isFlipping = false;
     private bool isCooldown = false;
 
-
     private bool isRtoL = false;
     private bool isLtoR = false;
 
     private float animationDuration = 2f;
     private float halfDuration = 1f;
 
-    // 新增翻页冷却
     private float flipCooldown = 0.5f;
+
+    float _RY = 0;
 
     void Start()
     {
+        rt = flipPage.GetComponent<RectTransform>();
+
         ResetRy();
         flipPage.enabled = false;
         UpdatePages();
-        rt = flipPage.GetComponent<RectTransform>();
     }
 
     public void NextPage()
     {
-        Debug.Log("NextPage");
         if (isFlipping || isCooldown) return;
         if (currentPageIndex + 2 >= pages.Length) return;
 
@@ -53,13 +51,10 @@ public class BookController : MonoBehaviour
         flipPage.sprite = rightPage.sprite;
 
         currentPageIndex += 2;
-
         UpdateRightPage();
 
         rt.localRotation = Quaternion.identity;
         flipPage.enabled = true;
-
-        //flipAnimator.SetTrigger("FlipForwardTrigger");
 
         isRtoL = true;
 
@@ -69,29 +64,26 @@ public class BookController : MonoBehaviour
 
     void UpdatePageMidForward()
     {
-        //flipPage.rectTransform.localScale = new(-flipPage.rectTransform.localScale.x,
-        //    flipPage.rectTransform.localScale.y, flipPage.rectTransform.localScale.z);
-        flipPage.flipX =true;
+        flipPage.flipX = true;
         flipPage.sprite = pages[currentPageIndex];
     }
 
     void AfterForwardFlip()
     {
         UpdateLeftPage();
+
         flipPage.enabled = false;
-        flipPage.flipX=false;
-        rt.localRotation = Quaternion.identity;
+        flipPage.flipX = false;
 
         isFlipping = false;
         isRtoL = false;
-        ResetRy();
 
+        ResetRy();
         StartCooldown();
     }
 
     public void PrevPage()
     {
-        Debug.Log("PrevPage");
         if (isFlipping || isCooldown) return;
         if (currentPageIndex - 2 < 0) return;
 
@@ -104,13 +96,10 @@ public class BookController : MonoBehaviour
         flipPage.sprite = leftPage.sprite;
 
         currentPageIndex -= 2;
-
         UpdateLeftPage();
 
         rt.localRotation = Quaternion.identity;
         flipPage.enabled = true;
-
-        //flipAnimator.SetTrigger("FlipBackwardTrigger");
 
         Invoke(nameof(UpdatePageMidBackward), halfDuration);
         Invoke(nameof(AfterBackwardFlip), animationDuration);
@@ -118,9 +107,8 @@ public class BookController : MonoBehaviour
 
     void UpdatePageMidBackward()
     {
-        //flipPage.rectTransform.localScale = new(-flipPage.rectTransform.localScale.x,
-        //    flipPage.rectTransform.localScale.y, flipPage.rectTransform.localScale.z);
-        flipPage.flipX =true;
+        flipPage.flipX = true;
+
         if (currentPageIndex + 1 < pages.Length)
             flipPage.sprite = pages[currentPageIndex + 1];
     }
@@ -128,14 +116,14 @@ public class BookController : MonoBehaviour
     void AfterBackwardFlip()
     {
         UpdateRightPage();
+
         flipPage.enabled = false;
-        flipPage.flipX=false;
-        rt.localRotation = Quaternion.identity;
+        flipPage.flipX = false;
 
         isFlipping = false;
-        isLtoR= false;
-        ResetRy();
+        isLtoR = false;
 
+        ResetRy();
         StartCooldown();
     }
 
@@ -162,7 +150,7 @@ public class BookController : MonoBehaviour
     {
         leftPage.sprite = pages[currentPageIndex];
     }
-    
+
     void UpdateRightPage()
     {
         if (currentPageIndex + 1 < pages.Length)
@@ -172,40 +160,45 @@ public class BookController : MonoBehaviour
     /// <summary>
     /// RtoL = -1, LtoR = 1
     /// </summary>
-    /// <param name="RY"></param>
-    /// <param name="toward"></param>
-    void Rol(float RY , int toward)
+    void Rol(float RY, int toward)
     {
-        rt.rotation = Quaternion.Euler(0, RY, 0);
-        //flipPage.rectTransform.position += new Vector3((float)318.5 * Time.deltaTime * toward, 0, 0);
-        if (toward < 0) { rt.pivot = new Vector2(0, (float)0.5); }
-        else { rt.pivot = new Vector2(1, (float)0.5); }
-    }
-    void ResetRy(){ _RY = 0; }
+        if (uiCamera == null) return;
 
-    float _RY = 0 ;
+        // ⭐关键：摄像机旋转 + 你的Y轴翻页
+        Quaternion camRot = uiCamera.transform.rotation;
+        Quaternion flipRot = Quaternion.Euler(0, RY, 0);
+
+        flipPage.transform.rotation = camRot * flipRot;
+
+        // 保留你的pivot逻辑
+        if (toward < 0)
+            rt.pivot = new Vector2(0, 0.5f);
+        else
+            rt.pivot = new Vector2(1, 0.5f);
+    }
+
+    void ResetRy()
+    {
+        _RY = 0;
+
+        // ⭐回正到摄像机方向（防止残留角度）
+        if (uiCamera != null)
+            flipPage.transform.rotation = uiCamera.transform.rotation;
+    }
 
     private void Update()
     {
-        if (isFlipping) 
+        if (!isFlipping) return;
+
+        if (isRtoL)
         {
-            if (isRtoL) 
-            {
-                Debug.Log("isRtoL");
-                _RY +=90*Time.deltaTime;
-                Rol(_RY,-1);
-            }
-            else
-            {
-                Debug.Log("isLtoR");
-                _RY -= 90 * Time.deltaTime;
-                Rol(_RY, 1);
-            }
+            _RY += 90 * Time.deltaTime;
+            Rol(_RY, -1);
+        }
+        else if (isLtoR)
+        {
+            _RY -= 90 * Time.deltaTime;
+            Rol(_RY, 1);
         }
     }
 }
-
-
-
-
-
