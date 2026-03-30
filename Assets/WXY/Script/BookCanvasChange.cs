@@ -2,24 +2,61 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
 public class BookCanvasChange : MonoBehaviour
 {
+    public Text Tip;
+    private Color unColor = new Color(1, 1, 1, 0);
+
+    private string[] books =
+    {
+        null,
+        "外朝中路",
+        "内廷中路",
+        "内廷西路",
+        "内廷东路",
+        "内廷外西路",
+        "内廷外东路"
+    };
+
+
     public GameObject[] canvases;
 
     
-        void Start()
-        {
-            ShowCanvas0(0); 
-        }
+    void Start()
+    {
+        ShowCanvas0(0);
+        Tip.color = unColor;
+    }
 
 
     public void ShowCanvas(int index)
     {
+        SaveManager.instance.TestForBook();
+        Debug.Log($"将要打开{index}");
+        if (index != 7 && index != 1 && index!=0) 
+        { 
+            if (!SaveManager.instance.BookBeReadOrNot(index - 1))
+            {
+                Debug.Log($"{index}打开失败，因为{index - 1}还没有被读完");
+                Tip.text = $"无法打开{books[index]}，因为{books[index-1]}还没有读完";
+                Tip.color = Color.white;
+                Invoke("HideTip", 2f);
+                return; 
+            } 
+        }
+
         StartCoroutine(SwitchCanvasWithTransition(index));
+    }
+
+    private void HideTip() 
+    {
+        Tip.color = unColor;
     }
 
     public void ShowCanvas0(int index)
