@@ -33,7 +33,7 @@ public class CameraController : MonoBehaviour
     // ×´Ì¬¼ÇÂ¼
     private Vector3 beforePos;
     private Quaternion beforeRot;
-    private bool isInteracting = false;
+    public bool isInteracting = false;
     private bool isMoving = false;
     private InteractableZone currentActiveZone;
 

@@ -205,6 +205,12 @@ public class MeshInstance : MonoBehaviour
         if(PassCheck==null || !PassCheck.ContainsKey(Box)) { return; }
         PassCheck.Remove(Box);
     }
+    public void OnBuildingDelet(Vector2 box)
+    {
+        if (PassCheck == null || !PassCheck.ContainsKey(box)) { return; }
+        PassCheck.Remove(box);
+    }
+
 
     public bool CheckAll() 
     {
