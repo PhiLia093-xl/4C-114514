@@ -10,6 +10,9 @@ using UnityEngine.UI;
 
 public class BookCanvasChange : MonoBehaviour
 {
+     public GameObject[] canvas;
+    public CameraController CameraController;
+
     public Text Tip;
     private Color unColor = new Color(1, 1, 1, 0);
 
@@ -70,19 +73,37 @@ public class BookCanvasChange : MonoBehaviour
 
     IEnumerator SwitchCanvasWithTransition(int index)
     {
-        
+
         SceneTransition.TransitionTo();
 
-        
+
         yield return new WaitForSeconds(3f);
 
-        
+        if (index == 7 && CameraController.isInteracting == true)
+        {
+            for (int j = 0; j < canvas.Length; j++)
+            {
+                canvas[j].SetActive(false);
+            }
+        }
+
+        if (index == 0 && CameraController.isInteracting == true)
+        {
+            for (int j = 0; j < canvas.Length; j++)
+            {
+                canvas[j].SetActive(true);
+            }
+        }
+
         for (int i = 0; i < canvases.Length; i++)
         {
             canvases[i].SetActive(i == index);
+            
         }
+
+        
     }
 
-   
+    
 }
 
