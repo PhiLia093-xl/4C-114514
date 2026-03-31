@@ -1076,6 +1076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 804722748}
   rightPage: {fileID: 5933406}
   flipPage: {fileID: 1822993237}
@@ -1103,6 +1105,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 103603367}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &103603367
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2068,112 +2071,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placedGameObjects: []
---- !u!1 &231712723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 231712727}
-  - component: {fileID: 231712726}
-  - component: {fileID: 231712725}
-  - component: {fileID: 231712724}
-  m_Layer: 0
-  m_Name: Plane (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &231712724
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231712723}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &231712725
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231712723}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 73a7beb0db3ef8540b881c4a466ed961, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &231712726
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231712723}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &231712727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231712723}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1047.2, y: 105.8, z: 544}
-  m_LocalScale: {x: 25.16, y: 25.16, z: 25.16}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257397404
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 698142807}
   rightPage: {fileID: 1790100063}
   flipPage: {fileID: 1976132899}
@@ -3294,6 +3193,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 390223915}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &390223915
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4938,13 +4838,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 2085597618}
-  grid: {fileID: 1877170020}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 1671933298}
   preview: {fileID: 1597668940}
   objectPlacer: {fileID: 1038954533}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &597379788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,13 +5334,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 426232714}
-  grid: {fileID: 1290540997}
   database: {fileID: 11400000, guid: 08ddf1e977a720243b764fd8e7b2ffca, type: 2}
   gridVisualization: {fileID: 162964061}
   preview: {fileID: 1485022101}
   objectPlacer: {fileID: 633974808}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 162964066}
 --- !u!1 &639491462
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,13 +5629,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 1235232963}
-  grid: {fileID: 1601168342}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 10238791}
   preview: {fileID: 554681446}
   objectPlacer: {fileID: 217773958}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &698142806
 GameObject:
   m_ObjectHideFlags: 0
@@ -10039,13 +9939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 1042820285}
-  grid: {fileID: 482461442}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 2082666855}
   preview: {fileID: 1230318275}
   objectPlacer: {fileID: 1879683800}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &1463217630
 GameObject:
   m_ObjectHideFlags: 0
@@ -10374,6 +10274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35f3618d45458814bade081432ab4766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: []
+  CameraController: {fileID: 0}
+  Tip: {fileID: 0}
   canvases:
   - {fileID: 1766905683}
   - {fileID: 2117951842}
@@ -11081,13 +10984,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 1796141466}
-  grid: {fileID: 1632298952}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 1250941653}
   preview: {fileID: 1606326810}
   objectPlacer: {fileID: 1282279629}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &1601168340
 GameObject:
   m_ObjectHideFlags: 0
@@ -11374,6 +11277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 517148608}
   rightPage: {fileID: 1372191307}
   flipPage: {fileID: 2101367340}
@@ -11407,6 +11312,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 1635639119}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &1635639119
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12638,6 +12544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 1678315397}
   rightPage: {fileID: 379592468}
   flipPage: {fileID: 828782535}
@@ -12665,6 +12573,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 1691473121}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &1691473121
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13197,13 +13106,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 1182444213}
-  grid: {fileID: 1248638521}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 1897533008}
   preview: {fileID: 534020929}
   objectPlacer: {fileID: 1466207644}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &1752003936
 GameObject:
   m_ObjectHideFlags: 0
@@ -13835,6 +13744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 1470845458}
   rightPage: {fileID: 1683750773}
   flipPage: {fileID: 984670067}
@@ -13852,6 +13763,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 1809601732}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &1809601732
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14465,6 +14377,7 @@ MonoBehaviour:
     targetPosition: {x: 1050, y: 130, z: 770}
     targetRotation: {x: 46, y: 0, z: 0}
   transitionSpeed: 2
+  isInteracting: 0
 --- !u!1 &1877170018
 GameObject:
   m_ObjectHideFlags: 0
@@ -15071,6 +14984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  LastPageIndex: 0
   leftPage: {fileID: 2102275967}
   rightPage: {fileID: 1752003937}
   flipPage: {fileID: 157308287}
@@ -15100,6 +15015,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 1980646937}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
+  currentPageIndex: 0
 --- !u!82 &1980646937
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16765,7 +16681,6 @@ SceneRoots:
   - {fileID: 1727652914}
   - {fileID: 1733735864}
   - {fileID: 429632709}
-  - {fileID: 231712727}
   - {fileID: 1331157545}
   - {fileID: 1762156867}
   - {fileID: 157458718}

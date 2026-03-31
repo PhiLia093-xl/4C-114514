@@ -81,7 +81,16 @@ public class SaveManager : MonoBehaviour
     //==============================================
     //To Do
     //Meshœ‡πÿ
-
+    public void SaveOnBuidingBePlaced(int id) 
+    {
+        _saveData._MeshBePlaced.Add(id, true);
+        SaveSystem.SaveByJson(_saveData);
+    }
+    public void SaveOnBuidingBeDelet(int id) 
+    {
+        _saveData._MeshBePlaced[id] = false;
+        SaveSystem.SaveByJson(_saveData);
+    }
 
 
     
