@@ -102,7 +102,7 @@ public class PlacementSystem : MonoBehaviour
         if (buildingState == null)
             return;
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
-
+        Debug.Log($"hitpoint{mousePosition}");
         BoxBeUsing = meshInstance.GetPos(mousePosition);
         
 
