@@ -46,15 +46,18 @@ public class PlacementSystem : MonoBehaviour
 
     public void StartPlacement(int ID)
     {
+        Debug.Log("buildingState将要为建造");
         StopPlacement();
         gridVisualization.SetActive(true);
         buildingState = new PlacementState(ID, meshInstance , preview,database,floorData,furnitureData,objectPlacer,buildingEvent);
+        Debug.Log("buildingState为建造");
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += StopPlacement;
     }
 
     public void StartRemoving(int ID)
     {
+        Debug.Log("buildingState将要为移除");
         StopPlacement();
         gridVisualization.SetActive(true);
         buildingState = new RemovingState(ID , meshInstance, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
@@ -100,11 +103,15 @@ public class PlacementSystem : MonoBehaviour
     private void Update()   
     {
         if (buildingState == null)
+        {
+            Debug.Log("buildingState为空");
             return;
+        }
+        
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
 
         BoxBeUsing = meshInstance.GetPos(mousePosition);
-        
+        Debug.Log($"坐标为{BoxBeUsing.Item1}，网格坐标为{BoxBeUsing.Item2}");
 
         ////把鼠标的位置转化为网格坐标
         //Vector3Int gridPosition = grid.WorldToCell(mousePosition);

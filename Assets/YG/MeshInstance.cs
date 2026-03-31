@@ -87,6 +87,11 @@ public class MeshInstance : MonoBehaviour
         { PassCheck = new Dictionary<Vector2, PassCheckData>(); }
         MeshCheckData data;
         Vector2 Box = BelongToWhichBox(pos); //ÔÚÍø¸ñµÄ£¨n£¬m£©
+<<<<<<< Updated upstream
+=======
+
+        //SaveManager.instance.SaveOnBuidingBePlaced(Id);
+>>>>>>> Stashed changes
         if (MeshCheckDic.TryGetValue(Box, out data))
         {
             if (PassCheck.ContainsKey(Box))
