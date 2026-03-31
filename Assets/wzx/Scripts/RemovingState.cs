@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class RemovingState : IBuildingState
 {
+    int ID;
     private int gameObjectIndex = -1;
-    Grid grid;
+    MeshInstance _meshInstance;
     PreviewSystem previewSystem;
     GridData floorData;
     GridData furnitureData;
@@ -14,14 +15,16 @@ public class RemovingState : IBuildingState
     public DeleteEvent deleteEvent;
     public BuildingGroup database;
 
-    public RemovingState(Grid grid,
+    public RemovingState(int ID,
+                         MeshInstance meshInstance,
                          PreviewSystem previewSystem,
                          GridData floorData,
                          GridData furnitureData,
                          ObjectPlacer objectPlacer,
                          DeleteEvent deleteEvent,BuildingGroup database)
     {
-        this.grid = grid;
+        this.ID = ID;
+        _meshInstance = meshInstance;
         this.previewSystem = previewSystem;
         this.floorData = floorData;
         this.furnitureData = furnitureData;
@@ -36,18 +39,18 @@ public class RemovingState : IBuildingState
         previewSystem.StopShowingPreview();
     }
 
-    public void OnAction(Vector3Int gridPosition)
+    public void OnAction(Vector3 pos , Vector2 box)
     {
       
         GridData selectedData = null;
-        if(furnitureData.CanPlaceObjectAt(gridPosition,Vector2Int.one) == false)
+        if(furnitureData.CanPlaceObjectAt(pos,Vector2.one) == false)
         {
             selectedData = furnitureData;
         }
-        else if(floorData.CanPlaceObjectAt(gridPosition, Vector2Int.one) == false)
-        {
-            selectedData = floorData;
-        }
+        //else if(floorData.CanPlaceObjectAt(gridPosition, Vector2.one) == false)
+        //{
+        //    selectedData = floorData;
+        //}
 
         if(selectedData == null)
         {
@@ -55,36 +58,37 @@ public class RemovingState : IBuildingState
         }
         else
         {
-            gameObjectIndex = selectedData.GetRepresentationIndex(gridPosition);
+            gameObjectIndex = selectedData.GetRepresentationIndex(pos);
            
             if (gameObjectIndex == -1)
                 return;
-            int Index = database.buildingGroup.FindIndex(data => data.ID == selectedData.GetIDAtPosition(gridPosition)); //获取buildingGroup下标
+            int Index = database.buildingGroup.FindIndex(data => data.ID == selectedData.GetIDAtPosition(pos)); //获取buildingGroup下标
             deleteEvent.Raise(database.buildingGroup[Index]);
 
-            selectedData.RemoveObjectAt(gridPosition);
+
+            _meshInstance.OnBuildingDelet(box);
+
+            selectedData.RemoveObjectAt(pos);
             objectPlacer.RemoveObjectAt(gameObjectIndex);
             Debug.Log(gameObjectIndex);
             
         }
-        Vector3 cellPosition = grid.CellToWorld(gridPosition);
-        previewSystem.UpdatePosition(cellPosition, CheckIfSelectionIsValid(gridPosition));
+        previewSystem.UpdatePosition(pos, CheckIfSelectionIsValid(pos));
         if (selectedData == null)
         {
             //可以添加音效
-            Debug.Log($"找不到可删除的物体！当前点击的网格坐标是: {gridPosition}");
+            Debug.Log($"找不到可删除的物体！当前点击的网格坐标是: {box}");
         }
     }
 
-    private bool CheckIfSelectionIsValid(Vector3Int gridPosition)
+    private bool CheckIfSelectionIsValid(Vector3 gridPosition)
     {
-        return !(furnitureData.CanPlaceObjectAt(gridPosition, Vector2Int.one) &&
-            floorData.CanPlaceObjectAt(gridPosition, Vector2Int.one));
+        return !(furnitureData.CanPlaceObjectAt(gridPosition, Vector2.one) &&
+            floorData.CanPlaceObjectAt(gridPosition, Vector2.one));
     }
 
-    public void UpdateState(Vector3Int gridPosition)
+    public void UpdateState(Vector3 pos , Vector2 box )
     {
-        bool validity = CheckIfSelectionIsValid(gridPosition);
-        previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), validity);
+        previewSystem.UpdatePosition(pos, !_meshInstance.BoxIsUsedOrNot(box));
     }
 }

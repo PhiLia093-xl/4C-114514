@@ -27,7 +27,7 @@ public class PreviewSystem : MonoBehaviour
         cellIndicatorRenderer = cellIndicator.GetComponentInChildren<Renderer>();
     }
 
-    public void StartShowingPlacement(GameObject prefab,Vector2Int size)
+    public void StartShowingPlacement(GameObject prefab,Vector2 size)
     {
         previewObject = Instantiate(prefab);//此时生成的并不是带有透明材质的预制体
         PreparePreview(previewObject);
@@ -35,7 +35,7 @@ public class PreviewSystem : MonoBehaviour
         cellIndicator.SetActive(true);
     }
 
-    private void PrepareCursor(Vector2Int size)
+    private void PrepareCursor(Vector2 size)
     {
         if (size.x > 0 || size.y > 0) 
         {
@@ -112,7 +112,7 @@ public class PreviewSystem : MonoBehaviour
     internal void StartShowingRemovePreview()
     {
         cellIndicator.SetActive(true);
-        PrepareCursor(Vector2Int.one);
+        PrepareCursor(Vector2.one);
         ApplyFeedBackToCursor(false);
     }
 }

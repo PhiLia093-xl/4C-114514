@@ -1597,13 +1597,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 870885067}
-  grid: {fileID: 503604833}
   database: {fileID: 11400000, guid: 131b8ac27d3549a4988891ac63dad733, type: 2}
   gridVisualization: {fileID: 1426729053}
   preview: {fileID: 256410036}
   objectPlacer: {fileID: 1251226259}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  meshInstance: {fileID: 0}
 --- !u!1 &1054971306
 GameObject:
   m_ObjectHideFlags: 0

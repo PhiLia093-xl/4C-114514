@@ -6,7 +6,7 @@ public class PlacementState : IBuildingState
 {
     private int selectedObjectIndex = -1;
     int ID;
-    Grid grid;
+    MeshInstance _meshInstance;
     PreviewSystem previewSystem;
     BuildingGroup database;
     GridData floorData;
@@ -15,7 +15,7 @@ public class PlacementState : IBuildingState
     public BuildingEvent buildingEvent;
 
     public PlacementState(int iD,
-                          Grid grid,
+                          MeshInstance meshInstance,
                           PreviewSystem previewSystem,
                           BuildingGroup database,
                           GridData floorData,
@@ -24,7 +24,7 @@ public class PlacementState : IBuildingState
                           BuildingEvent buildingEvent)
     {
         ID = iD;
-        this.grid = grid;
+        _meshInstance = meshInstance;
         this.previewSystem = previewSystem;
         this.database = database;
         this.floorData = floorData;
@@ -53,24 +53,26 @@ public class PlacementState : IBuildingState
         previewSystem.StopShowingPreview();
     }
     
-    public void OnAction(Vector3Int gridPosition)
+    public void OnAction(Vector3 pos , Vector2 box )
     {
         //检查放置的有效性
-        bool placementValidity = CheckPlacementValidity(gridPosition, selectedObjectIndex);
-        if (placementValidity == false)
+        if (_meshInstance.BoxIsUsedOrNot(box) == true)
             return;
-        int index = objectPlacer.PlaceObject(database.buildingGroup[selectedObjectIndex].prefab, grid.CellToWorld(gridPosition));
-        GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
-        selectedData.AddObjectAt(gridPosition,
-            database.buildingGroup[selectedObjectIndex].size,
-            database.buildingGroup[selectedObjectIndex].ID,
-            index);
+        _meshInstance.BrforePlace(box, selectedObjectIndex);
+        objectPlacer.PlaceObject(database.buildingGroup[selectedObjectIndex].prefab, pos);
+        //GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
+        //selectedData.AddObjectAt(gridPosition,
+        //    database.buildingGroup[selectedObjectIndex].size,
+        //    database.buildingGroup[selectedObjectIndex].ID,
+        //    index);
         //放置完物体之后将该点设置为不能放置
-        previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), false);
+        //previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), false);
+        
+        
         buildingEvent.Raise(database.buildingGroup[selectedObjectIndex]);
     }
 
-    private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
+    private bool CheckPlacementValidity(Vector3 gridPosition, int selectedObjectIndex)
     {
         //判断是地板还是建筑
         GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
@@ -78,9 +80,9 @@ public class PlacementState : IBuildingState
 
     }
 
-    public void UpdateState(Vector3Int gridPosition)
+    public void UpdateState(Vector3 pos , Vector2 box)
     {
-        bool placementValidity = CheckPlacementValidity(gridPosition, selectedObjectIndex);
-        previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), placementValidity);
+        bool placementValidity = !_meshInstance.BoxIsUsedOrNot(box);
+        previewSystem.UpdatePosition(pos, placementValidity);
     }
 }

@@ -9,8 +9,8 @@ public class PlacementSystem : MonoBehaviour
 {
     [SerializeField]
     private InputManager inputManager;
-    [SerializeField]
-    private Grid grid;
+    //[SerializeField]
+    //private Grid grid;
 
     [SerializeField]
     private BuildingGroup database;
@@ -23,7 +23,7 @@ public class PlacementSystem : MonoBehaviour
     [SerializeField]
     private PreviewSystem preview;
 
-    private Vector3Int lastDetectedPosition = Vector3Int.zero;
+    private Vector3 lastDetectedPosition = Vector3.zero;
 
     [SerializeField]
     private ObjectPlacer objectPlacer;
@@ -33,6 +33,9 @@ public class PlacementSystem : MonoBehaviour
     public DeleteEvent deleteEvent;
 
     IBuildingState buildingState;
+
+    public MeshInstance meshInstance;
+    private (Vector3, Vector2) BoxBeUsing;
 
     private void Start()
     {
@@ -45,16 +48,16 @@ public class PlacementSystem : MonoBehaviour
     {
         StopPlacement();
         gridVisualization.SetActive(true);
-        buildingState = new PlacementState(ID,grid,preview,database,floorData,furnitureData,objectPlacer,buildingEvent);
+        buildingState = new PlacementState(ID, meshInstance , preview,database,floorData,furnitureData,objectPlacer,buildingEvent);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += StopPlacement;
     }
 
-    public void StartRemoving()
+    public void StartRemoving(int ID)
     {
         StopPlacement();
         gridVisualization.SetActive(true);
-        buildingState = new RemovingState(grid, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
+        buildingState = new RemovingState(ID , meshInstance, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnClicked += StopPlacement;
     }
@@ -65,11 +68,13 @@ public class PlacementSystem : MonoBehaviour
         {
             return;
         }
-        Vector3 mousePosition = inputManager.GetSelectedMapPosition();
-        Vector3Int gridPosition = grid.WorldToCell(mousePosition);
-        Vector3 cellOriginWorldPos = grid.CellToWorld(gridPosition);
+        //Vector3 mousePosition = inputManager.GetSelectedMapPosition();
+        //Vector3Int gridPosition = grid.WorldToCell(mousePosition);
+        //Vector3 cellOriginWorldPos = grid.CellToWorld(gridPosition);
        
-        buildingState.OnAction(gridPosition);
+
+
+        buildingState.OnAction(BoxBeUsing.Item1 , BoxBeUsing.Item2);
     }
 
     //private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
@@ -97,16 +102,20 @@ public class PlacementSystem : MonoBehaviour
         if (buildingState == null)
             return;
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
-        //把鼠标的位置转化为网格坐标
-        Vector3Int gridPosition = grid.WorldToCell(mousePosition);
-        //使用 CellToWorld 获取单元格左下角坐标
-        Vector3 cellOriginWorldPos = grid.CellToWorld(gridPosition);
+
+        BoxBeUsing = meshInstance.GetPos(mousePosition);
+        
+
+        ////把鼠标的位置转化为网格坐标
+        //Vector3Int gridPosition = grid.WorldToCell(mousePosition);
+        ////使用 CellToWorld 获取单元格左下角坐标
+        //Vector3 cellOriginWorldPos = grid.CellToWorld(gridPosition);
 
         //如果未移动网格指示器，可以停止更新
-        if(lastDetectedPosition != gridPosition)
+        if(lastDetectedPosition != BoxBeUsing.Item1)
         {
-            buildingState.UpdateState(gridPosition);
-            lastDetectedPosition = gridPosition;
+            buildingState.UpdateState(BoxBeUsing.Item1 , BoxBeUsing.Item2);
+            lastDetectedPosition = BoxBeUsing.Item1;
         }
       
     }
