@@ -1076,8 +1076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 3
-  LastPageIndex: 19
   leftPage: {fileID: 804722748}
   rightPage: {fileID: 5933406}
   flipPage: {fileID: 1822993237}
@@ -1105,7 +1103,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 103603367}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &103603367
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2521,7 +2518,7 @@ Canvas:
   m_GameObject: {fileID: 332548440}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3004,7 +3001,7 @@ Canvas:
   m_GameObject: {fileID: 365452572}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3202,8 +3199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 6
-  LastPageIndex: 21
   leftPage: {fileID: 698142807}
   rightPage: {fileID: 1790100063}
   flipPage: {fileID: 1976132899}
@@ -3233,7 +3228,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 390223915}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &390223915
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5150,7 +5144,7 @@ Canvas:
   m_GameObject: {fileID: 631547664}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -5700,7 +5694,7 @@ Canvas:
   m_GameObject: {fileID: 663447721}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -8456,7 +8450,7 @@ Canvas:
   m_GameObject: {fileID: 1198425626}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -10827,7 +10821,7 @@ Canvas:
   m_GameObject: {fileID: 1538629063}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -11415,8 +11409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 2
-  LastPageIndex: 25
   leftPage: {fileID: 517148608}
   rightPage: {fileID: 1372191307}
   flipPage: {fileID: 2101367340}
@@ -11450,7 +11442,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 1635639119}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &1635639119
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12444,8 +12435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
-  LastPageIndex: 19
   leftPage: {fileID: 1678315397}
   rightPage: {fileID: 379592468}
   flipPage: {fileID: 828782535}
@@ -12473,7 +12462,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a7773ec4f15d6154a92356ff66a4660d, type: 3}
   audioSource: {fileID: 1691473121}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &1691473121
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12685,7 +12673,7 @@ Canvas:
   m_GameObject: {fileID: 1717609417}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -13656,8 +13644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 5
-  LastPageIndex: 15
   leftPage: {fileID: 1470845458}
   rightPage: {fileID: 1683750773}
   flipPage: {fileID: 984670067}
@@ -13681,7 +13667,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 1809601732}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &1809601732
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15154,8 +15139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
-  LastPageIndex: 21
   leftPage: {fileID: 2102275967}
   rightPage: {fileID: 1752003937}
   flipPage: {fileID: 157308287}
@@ -15185,7 +15168,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5658dbc933db37d42bf7cd44be63f6b2, type: 3}
   audioSource: {fileID: 1980646937}
   flipSound: {fileID: 8300000, guid: b6423aba7775afc4da40c74a66c5e990, type: 3}
-  currentPageIndex: 0
 --- !u!82 &1980646937
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15502,7 +15484,7 @@ Canvas:
   m_GameObject: {fileID: 2056188461}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1867465000}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
