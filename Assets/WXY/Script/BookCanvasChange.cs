@@ -12,7 +12,11 @@ public class BookCanvasChange : MonoBehaviour
 {
      public GameObject[] canvas;
     public CameraController CameraController;
-
+    public Transform cameraTransform;
+    private Vector3 originalPosition;
+    private Quaternion originalRotation;
+    private int lastIndex = 0;
+    public Transform target;
     public Text Tip;
     private Color unColor = new Color(1, 1, 1, 0);
 
@@ -41,6 +45,9 @@ public class BookCanvasChange : MonoBehaviour
     public void ShowCanvas(int index)
     {
         SaveManager.instance.TestForBook();
+
+        
+
         Debug.Log($"将要打开{index}");
         if (index != 7 && index != 1 && index!=0) 
         { 
@@ -53,7 +60,7 @@ public class BookCanvasChange : MonoBehaviour
                 return; 
             } 
         }
-
+        
         StartCoroutine(SwitchCanvasWithTransition(index));
     }
 
@@ -77,23 +84,58 @@ public class BookCanvasChange : MonoBehaviour
         SceneTransition.TransitionTo();
 
 
+
         yield return new WaitForSeconds(3f);
 
-        if (index == 7 && CameraController.isInteracting == true)
+
+
+
+
+
+
+        if (index == 7 )
         {
-            for (int j = 0; j < canvas.Length; j++)
+            if (lastIndex == 0)
             {
-                canvas[j].SetActive(false);
+                originalPosition = cameraTransform.position;
+                originalRotation = cameraTransform.rotation;
+
+                cameraTransform.position = target.position;
+                cameraTransform.rotation = target.rotation;
             }
+
+           
+
+            if (CameraController.isInteracting == true)
+            {
+                for (int j = 0; j < canvas.Length; j++)
+                {
+                    canvas[j].SetActive(false);
+
+
+                }
+            }
+
+
         }
 
-        if (index == 0 && CameraController.isInteracting == true)
+        else if (index == 0)
         {
-            for (int j = 0; j < canvas.Length; j++)
-            {
-                canvas[j].SetActive(true);
-            }
+            cameraTransform.position = originalPosition;
+            cameraTransform.rotation = originalRotation;
+
+             if (CameraController.isInteracting == true)
+             {
+                for (int j = 0; j < canvas.Length; j++)
+                {
+                    canvas[j].SetActive(true);
+
+                }
+             }
         }
+        
+
+        lastIndex = index;
 
         for (int i = 0; i < canvases.Length; i++)
         {
