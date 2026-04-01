@@ -19,7 +19,18 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    private SaveData _saveData;
+    public readonly string[] books =
+    {
+        null,
+        "外朝中路",
+        "内廷中路",
+        "内廷西路",
+        "内廷东路",
+        "内廷外西路",
+        "内廷外东路"
+    };
+
+    [SerializeField] private SaveData _saveData;
 
     private void Start()
     {
@@ -81,10 +92,56 @@ public class SaveManager : MonoBehaviour
     //==============================================
     //To Do
     //Mesh相关
+    public void SaveOnMeshBePlaced(int id)
+    {
+        _saveData._MeshBePlaced.Add(id);
+        SaveSystem.SaveByJson(_saveData);
+    }
 
+    public bool MeshBePlacedOrNot(int id)
+    {
+        return _saveData._MeshBePlaced.Contains(id);
+    }
 
+    public void TestForMeshPlace() 
+    {
+        SaveData saveData = SaveSystem.LoadByJson();
+        if (saveData == null) { Debug.Log("存档文件中SaveData为空"); }
+        else
+        {
+            if (saveData._MeshBePlaced == null) { Debug.Log("存档文件中SaveData中的Mesh数据为空"); }
+            else
+            {
+                if (saveData._MeshBePlaced.Count == 0) { Debug.Log("存档文件中显示还没有Mesh被正确放置完成过"); }
+                else
+                {
+                    Debug.Log("存档文件中");
+                    foreach (int _id in saveData._MeshBePlaced)
+                    {
+                        Debug.Log($"id为{_id}的区域已被正确放置完成");
+                    }
+                }
+            }
+        }
+        if (_saveData == null) { Debug.Log("存档管理器中SaveData为空"); }
+        else
+        {
+            if (_saveData._MeshBePlaced == null) { Debug.Log("存档管理器中SaveData中的Mesh数据为空"); }
+            else
+            {
+                if (_saveData._MeshBePlaced.Count == 0) { Debug.Log("存档管理器中显示还没有Mesh被正确放置完成过"); }
+                else
+                {
+                    Debug.Log("存档管理器中");
+                    foreach (int _id in _saveData._MeshBePlaced)
+                    {
+                        Debug.Log($"id为{_id}的区域已被正确放置完成");
+                    }
+                }
+            }
+        }
+    }
 
-    
 
     private void LoadSaveFile() 
     {
@@ -94,7 +151,7 @@ public class SaveManager : MonoBehaviour
             if (_saveData._BookBeRead == null)
             { _saveData._BookBeRead = new List<int>(); }
             if (_saveData._MeshBePlaced == null)
-            { _saveData._MeshBePlaced = new IntBoolDictionary(); }
+            { _saveData._MeshBePlaced = new List<int>(); }
         }
         else
         {
@@ -117,7 +174,7 @@ public class SaveManager : MonoBehaviour
 
     public void ResetMeshSaveData()
     {
-        _saveData._MeshBePlaced = new IntBoolDictionary();
+        _saveData._MeshBePlaced = new List<int>();
         SaveSystem.SaveByJson(_saveData);
     }
 }

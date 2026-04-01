@@ -22,7 +22,7 @@ public class BuildingSlotUI : MonoBehaviour
 
     public void Init(BuildingData buildingData,PlacementSystem placementSystem)
     {
-        Debug.Log("正在初始化建筑格子");
+        //Debug.Log("正在初始化建筑格子");
        
         data = buildingData;
         iconImage.sprite = data.icon;

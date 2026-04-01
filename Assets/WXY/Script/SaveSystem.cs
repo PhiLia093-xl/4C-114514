@@ -51,14 +51,14 @@ public class SaveData
 {
 
     public List<int> _BookBeRead;
-    public IntBoolDictionary _MeshBePlaced;
+    public List<int> _MeshBePlaced;
 
     public SaveData()
     {
         _BookBeRead = new List<int>();
-        _MeshBePlaced = new IntBoolDictionary();
+        _MeshBePlaced = new List<int>();
     }
-    public SaveData( List<int> bookBeRead , IntBoolDictionary meshBePlaced )
+    public SaveData( List<int> bookBeRead , List<int> meshBePlaced)
     {
         _BookBeRead = bookBeRead;
         _MeshBePlaced = meshBePlaced;

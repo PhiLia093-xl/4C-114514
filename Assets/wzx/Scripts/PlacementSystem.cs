@@ -3,10 +3,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices.WindowsRuntime;
+using UnityEditor;
 
 
 public class PlacementSystem : MonoBehaviour
 {
+    [SerializeField]private int id;
+
     [SerializeField]
     private InputManager inputManager;
     //[SerializeField]
@@ -39,6 +42,7 @@ public class PlacementSystem : MonoBehaviour
 
     private void Start()
     {
+        CameraController.onBuildingModeEx.AddListener(OnBuildingEx);
         StopPlacement();
         furnitureData = new ();
         floorData = new();
@@ -46,21 +50,21 @@ public class PlacementSystem : MonoBehaviour
 
     public void StartPlacement(int ID)
     {
-        Debug.Log("buildingState将要为建造");
+        //Debug.Log("buildingState将要为建造");
         StopPlacement();
         gridVisualization.SetActive(true);
         buildingState = new PlacementState(ID, meshInstance , preview,database,floorData,furnitureData,objectPlacer,buildingEvent);
-        Debug.Log("buildingState为建造");
+        //Debug.Log("buildingState为建造");
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += StopPlacement;
     }
 
-    public void StartRemoving(int ID)
+    public void StartRemoving()
     {
         Debug.Log("buildingState将要为移除");
         StopPlacement();
         gridVisualization.SetActive(true);
-        buildingState = new RemovingState(ID , meshInstance, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
+        buildingState = new RemovingState( meshInstance, preview, floorData, furnitureData, objectPlacer,deleteEvent,database);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnClicked += StopPlacement;
     }
@@ -104,22 +108,22 @@ public class PlacementSystem : MonoBehaviour
     {
         if (buildingState == null)
         {
-            Debug.Log("buildingState为空");
+            //Debug.Log("buildingState为空");
             return;
         }
         
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
-
+        //EditorApplication.isPaused = true;
         BoxBeUsing = meshInstance.GetPos(mousePosition);
-        Debug.Log($"坐标为{BoxBeUsing.Item1}，网格坐标为{BoxBeUsing.Item2}");
-
+        //Debug.Log($"hitpoint:{mousePosition} 坐标为{BoxBeUsing.Item1}，网格坐标为{BoxBeUsing.Item2}");
+        //EditorApplication.isPaused = true;
         ////把鼠标的位置转化为网格坐标
         //Vector3Int gridPosition = grid.WorldToCell(mousePosition);
         ////使用 CellToWorld 获取单元格左下角坐标
         //Vector3 cellOriginWorldPos = grid.CellToWorld(gridPosition);
 
         //如果未移动网格指示器，可以停止更新
-        if(lastDetectedPosition != BoxBeUsing.Item1)
+        if (lastDetectedPosition != BoxBeUsing.Item1)
         {
             buildingState.UpdateState(BoxBeUsing.Item1 , BoxBeUsing.Item2);
             lastDetectedPosition = BoxBeUsing.Item1;
@@ -127,4 +131,26 @@ public class PlacementSystem : MonoBehaviour
       
     }
 
+
+
+
+    private void OnBuildingEx() 
+    {
+        //if (meshInstance.CheckAll()) 
+        //{
+        //    SaveManager.instance.SaveOnMeshBePlaced(id);
+        //    CameraController.onBuildingModeEx.RemoveListener(OnBuildingEx);
+        //}
+        if (meshInstance.DebugCheckAll())
+        {
+            SaveManager.instance.SaveOnMeshBePlaced(id);
+            
+        }
+        SaveManager.instance.TestForMeshPlace();
+    }
+
+    private void OnDisable()
+    {
+        CameraController.onBuildingModeEx.RemoveListener(OnBuildingEx);
+    }
 }

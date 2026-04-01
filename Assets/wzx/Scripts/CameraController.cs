@@ -1,10 +1,13 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 [System.Serializable]
 public class InteractableZone
 {
     public string zoneName;
+    [Header("区域ID")]
+    public int ID;
 
     [Header("触发范围")]
     public Vector2 xRange;
@@ -20,6 +23,7 @@ public class InteractableZone
 
 public class CameraController : MonoBehaviour
 {
+    [HideInInspector]public static UnityEvent onBuildingModeEx = new();
     [Header("漫游视角控制")]
     public float moveSpeed = 15f; // WASD 和 QE 移动速度
     public float lookSpeed = 3f;  // 鼠标拖拽旋转速度
@@ -60,9 +64,16 @@ public class CameraController : MonoBehaviour
             // 2. 检测交互
             if (Input.GetKeyDown(KeyCode.F))
             {
+                
                 InteractableZone zoneToEnter = CheckPlayerPosition();
                 if (zoneToEnter != null)
                 {
+                    if (!SaveManager.instance.BookBeReadOrNot(zoneToEnter.ID)) 
+                    {
+                        Debug.Log($"无法打开{SaveManager.instance.books[zoneToEnter.ID]}的建造系统，" +
+                            $"因为{SaveManager.instance.books[zoneToEnter.ID]}的书籍还没有读完");
+                        return;
+                    }
                     StartCoroutine(EnterInteraction(zoneToEnter));
                 }
             }
@@ -72,6 +83,7 @@ public class CameraController : MonoBehaviour
             // 如果正在交互状态，按 Esc 键退出
             if (Input.GetKeyDown(KeyCode.Escape))
             {
+                onBuildingModeEx.Invoke();
                 StartCoroutine(ExitInteraction());
             }
         }

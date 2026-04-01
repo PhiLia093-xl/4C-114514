@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class RemovingState : IBuildingState
 {
-    int ID;
+
     private int gameObjectIndex = -1;
     MeshInstance _meshInstance;
     PreviewSystem previewSystem;
@@ -15,7 +15,7 @@ public class RemovingState : IBuildingState
     public DeleteEvent deleteEvent;
     public BuildingGroup database;
 
-    public RemovingState(int ID,
+    public RemovingState(
                          MeshInstance meshInstance,
                          PreviewSystem previewSystem,
                          GridData floorData,
@@ -23,7 +23,7 @@ public class RemovingState : IBuildingState
                          ObjectPlacer objectPlacer,
                          DeleteEvent deleteEvent,BuildingGroup database)
     {
-        this.ID = ID;
+
         _meshInstance = meshInstance;
         this.previewSystem = previewSystem;
         this.floorData = floorData;
@@ -41,7 +41,8 @@ public class RemovingState : IBuildingState
 
     public void OnAction(Vector3 pos , Vector2 box)
     {
-      
+        int id = _meshInstance.OnBuildingDelet(box);//被删除的建筑的ID ，，， 现在是这行在删建筑了
+
         GridData selectedData = null;
         if(furnitureData.CanPlaceObjectAt(pos,Vector2.one) == false)
         {
@@ -66,7 +67,7 @@ public class RemovingState : IBuildingState
             deleteEvent.Raise(database.buildingGroup[Index]);
 
 
-            _meshInstance.OnBuildingDelet(box);
+            
 
             selectedData.RemoveObjectAt(pos);
             objectPlacer.RemoveObjectAt(gameObjectIndex);

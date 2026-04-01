@@ -35,7 +35,7 @@ public class BuildingListGenerator : MonoBehaviour
             return;
         }
         else
-            Debug.Log("准备生成");
+            //Debug.Log("准备生成");
         GenerateList(currGroup.buildingGroup);
     }
 
@@ -46,7 +46,7 @@ public class BuildingListGenerator : MonoBehaviour
     }
     public void GenerateList(List<BuildingData> dataList) //基本生成逻辑
     {
-        Debug.Log("开始生成建筑列表");
+        //Debug.Log("开始生成建筑列表");
         currDataList = dataList; //更新当前数据列表
         // 1. 清空旧格子(根据对象池操作)
         foreach (var obj in pool) obj.SetActive(false);
@@ -58,13 +58,13 @@ public class BuildingListGenerator : MonoBehaviour
             GameObject slot=null;
             if(i<pool.Count)                     //够用就直接启用
             {
-                Debug.Log("启用已有格子");
+                //Debug.Log("启用已有格子");
                 slot =pool[i];
                 slot.SetActive(true);
             }
             else                                 //不够用就创建新的
             {
-                Debug.Log("创建新的格子");
+                //Debug.Log("创建新的格子");
                 if (slotPrefab != null) {
                     if (contentTransform == null) Debug.LogError("Content Transform未设置");
                     else

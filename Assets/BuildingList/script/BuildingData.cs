@@ -24,7 +24,7 @@ public class BuildingData : ScriptableObject, ISerializationCallbackReceiver
     // 当资产被加载（进入播放模式或打包后启动）时执行
     public void OnAfterDeserialize()
     {
-        Debug.Log("资产已重置");
+        //Debug.Log("资产已重置");
         count=maxCount;
     }
     // 加载前执行

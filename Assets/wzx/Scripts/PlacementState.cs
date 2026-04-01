@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -58,17 +59,23 @@ public class PlacementState : IBuildingState
         //检查放置的有效性
         if (_meshInstance.BoxIsUsedOrNot(box) == true)
             return;
-        _meshInstance.BrforePlace(box, selectedObjectIndex);
-        objectPlacer.PlaceObject(database.buildingGroup[selectedObjectIndex].prefab, pos);
+        
+        GameObject Buiding = objectPlacer.PlaceObject(database.buildingGroup[selectedObjectIndex].prefab, pos);
+        _meshInstance.BrforePlace(box, selectedObjectIndex,
+                            Buiding);
         //GridData selectedData = database.buildingGroup[selectedObjectIndex].ID == 0 ? floorData : furnitureData;
-        //selectedData.AddObjectAt(gridPosition,
+        //selectedData.AddObjectAt(pos,
         //    database.buildingGroup[selectedObjectIndex].size,
         //    database.buildingGroup[selectedObjectIndex].ID,
         //    index);
+        //selectedData.AddObjectAt(pos,
+        //    database.buildingGroup[selectedObjectIndex].size,
+        //    database.buildingGroup[selectedObjectIndex].ID,
+        //    ID); //T
         //放置完物体之后将该点设置为不能放置
         //previewSystem.UpdatePosition(grid.CellToWorld(gridPosition), false);
-        
-        
+
+
         buildingEvent.Raise(database.buildingGroup[selectedObjectIndex]);
     }
 

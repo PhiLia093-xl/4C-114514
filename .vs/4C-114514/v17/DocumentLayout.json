@@ -3,156 +3,27 @@
   "WorkspaceRootPath": "D:\\Github\\4C-114514\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> Stashed changes
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> Stashed changes
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|c:\\users\\27931\\desktop\\4c\\4c-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\cameracontroltoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\cameracontroltoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\griddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\griddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\tianxingjian\\\u811A\u672C\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\shader\\gizemesh.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\objectdatabaseso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\objectdatabaseso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\previewsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|C:\\Users\\27931\\Desktop\\4c\\4C-114514\\assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\bookcanvaschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -181,7 +52,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\ibuildingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -259,110 +129,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 3,
-=======
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 2,
-=======
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 3,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraControlToggle.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\CameraControlToggle.cs",
-              "RelativeDocumentMoniker": "Assets\\WXY\\Script\\CameraControlToggle.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\CameraControlToggle.cs",
-              "RelativeToolTip": "Assets\\WXY\\Script\\CameraControlToggle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T18:56:59.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\CameraController.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\CameraController.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwCMAAAAKAAAAAAAAAA==",
-=======
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAKgAAAAAAAAAAAAowMQAAAAoAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwCMAAAAKAAAAAAAAAA==",
-=======
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PlacementSystem.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowGcAAAAJAAAAAAAAAA==",
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:21:46.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:21:46.146Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 0,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 1,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 0,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "BookCanvasChange.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\BookCanvasChange.cs",
-              "RelativeDocumentMoniker": "Assets\\WXY\\Script\\BookCanvasChange.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\BookCanvasChange.cs",
-              "RelativeToolTip": "Assets\\WXY\\Script\\BookCanvasChange.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGoAAAAEAAAAAAAAAA==",
-=======
-<<<<<<< Updated upstream
-              "ViewState": "AgIAACYAAAAAAAAAAADwvykAAAAwAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGoAAAAEAAAAAAAAAA==",
-=======
-              "DocumentIndex": 1,
               "Title": "MeshInstance.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
               "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
               "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAvwH4AAAAxAAAAAAAAAA==",
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+              "ViewState": "AgIAAKgAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T15:33:00.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "InputManager.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\InputManager.cs",
@@ -370,62 +166,23 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\InputManager.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:23:12.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:23:12.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SaveManager.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveManager.cs",
               "RelativeToolTip": "Assets\\WXY\\Script\\SaveManager.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAswFsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwFsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
               "WhenOpened": "2026-03-30T16:30:51.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SerializableDictionary.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\SerializableDictionary.cs",
-              "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SerializableDictionary.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\SerializableDictionary.cs",
-              "RelativeToolTip": "Assets\\WXY\\Script\\SerializableDictionary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T16:18:30.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SaveSystem.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\SaveSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SaveSystem.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\WXY\\Script\\SaveSystem.cs",
-              "RelativeToolTip": "Assets\\WXY\\Script\\SaveSystem.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T16:14:01.355Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 9,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 4,
-=======
-              "DocumentIndex": 9,
-=======
-              "WhenOpened": "2026-03-30T16:30:51.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SaveSystem.cs",
@@ -433,8 +190,7 @@
               "RelativeToolTip": "Assets\\WXY\\Script\\SaveSystem.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwDoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T16:14:01.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T16:14:01.355Z"
             },
             {
               "$type": "Document",
@@ -446,8 +202,7 @@
               "RelativeToolTip": "Assets\\WXY\\Script\\BookCanvasChange.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T17:28:15.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:28:15.713Z"
             },
             {
               "$type": "Document",
@@ -459,8 +214,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementState.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:27:08.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:27:08.428Z"
             },
             {
               "$type": "Document",
@@ -472,8 +226,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\RemovingState.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAgwEQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:05:27.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:05:27.823Z"
             },
             {
               "$type": "Document",
@@ -485,8 +238,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\GridData.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAswCwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:56:11.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:56:11.784Z"
             },
             {
               "$type": "Document",
@@ -498,8 +250,7 @@
               "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T10:25:37.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T10:25:37.946Z"
             },
             {
               "$type": "Document",
@@ -511,8 +262,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAFkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:07:47.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:07:47.15Z"
             },
             {
               "$type": "Document",
@@ -524,8 +274,7 @@
               "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:04:06.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:04:06.171Z"
             },
             {
               "$type": "Document",
@@ -537,8 +286,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\IBuildingState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:05:19.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:05:19.577Z"
             },
             {
               "$type": "Document",
@@ -550,8 +298,7 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\ObjectPlacer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:10:09.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:10:09.545Z"
             },
             {
               "$type": "Document",
@@ -563,15 +310,11 @@
               "RelativeToolTip": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:50:32.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:50:32.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\BookController.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\BookController.cs",
@@ -583,15 +326,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 15,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 10,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 15,
-=======
               "DocumentIndex": 18,
               "Title": "SerializableDictionary.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SerializableDictionary.cs",
@@ -629,9 +363,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "GizeMesh.shader",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Shader\\GizeMesh.shader",
               "RelativeDocumentMoniker": "Assets\\wzx\\Shader\\GizeMesh.shader",
@@ -643,39 +374,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 16,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 12,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 16,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "MeshInstance.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\YG\\MeshInstance.cs",
-              "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\YG\\MeshInstance.cs",
-              "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAkwOYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:33:00.552Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 20,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 17,
-=======
-              "DocumentIndex": 20,
-=======
               "DocumentIndex": 21,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "BuildingData.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingData.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingData.cs",
@@ -687,29 +386,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 19,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 16,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 19,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "BuildingListGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwD4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T10:25:37.946Z"
-            },
-            {
-              "$type": "Document",
-=======
->>>>>>> Stashed changes
               "DocumentIndex": 28,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\NewBehaviourScript.cs",
@@ -722,19 +398,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 14,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 9,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 14,
-=======
               "DocumentIndex": 19,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\SceneTransition.cs",
@@ -746,136 +410,19 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 13,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 8,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 13,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\InputManager.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\InputManager.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\InputManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:23:12.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlacementSystem.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:21:46.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SyncGridToShader.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\SyncGridToShader.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\SyncGridToShader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAywCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:50:32.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlacementState.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementState.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PlacementState.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:27:08.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GridData.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\GridData.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\GridData.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\GridData.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\GridData.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswFEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:56:11.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 4,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 22,
-=======
-              "DocumentIndex": 4,
-=======
               "DocumentIndex": 25,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "Mainmenu.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
               "RelativeDocumentMoniker": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
               "RelativeToolTip": "Assets\\tianxingjian\\\u811A\u672C\\Mainmenu.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvwcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:41:56.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T09:41:56.545Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 18,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "ObjectPlacer.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\ObjectPlacer.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectPlacer.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\ObjectPlacer.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\ObjectPlacer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:10:09.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 22,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 20,
-=======
-              "DocumentIndex": 22,
-=======
               "DocumentIndex": 23,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "BuildingManager.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingManager.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingManager.cs",
@@ -887,19 +434,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 21,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 19,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 21,
-=======
               "DocumentIndex": 22,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "ObjectDataBaseSO.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\ObjectDataBaseSO.cs",
@@ -911,19 +446,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 23,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 21,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 23,
-=======
               "DocumentIndex": 24,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs",
               "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\Script\\NewBehaviourScript.cs",
@@ -945,75 +468,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 25,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 24,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 25,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-              "Title": "PreviewSystem.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PreviewSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\PreviewSystem.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\PreviewSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:07:47.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RemovingState.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\RemovingState.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\RemovingState.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\RemovingState.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\RemovingState.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:05:27.823Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "IBuildingState.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\IBuildingState.cs",
-              "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\IBuildingState.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\wzx\\Scripts\\IBuildingState.cs",
-              "RelativeToolTip": "Assets\\wzx\\Scripts\\IBuildingState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:05:19.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BuildingEvent.cs",
-              "DocumentMoniker": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingEvent.cs",
-              "ToolTip": "C:\\Users\\27931\\Desktop\\4c\\4C-114514\\Assets\\BuildingList\\script\\BuildingEvent.cs",
-              "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingEvent.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:04:06.171Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 24,
-=======
-<<<<<<< Updated upstream
-              "DocumentIndex": 23,
-=======
-              "DocumentIndex": 24,
-=======
-              "DocumentIndex": 26,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
               "Title": "DeleteEvent.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\DeleteEvent.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\DeleteEvent.cs",
