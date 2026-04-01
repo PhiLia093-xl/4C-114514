@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using UnityEditor.Build.Reporting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MeshInstance : MonoBehaviour
 {
@@ -21,7 +24,10 @@ public class MeshInstance : MonoBehaviour
     [SerializeField] private int n; //X轴方向长几格
     [SerializeField] private int m; //Z轴方向长几格
 
+    Dictionary<Vector2, BuidingAndID> Buildings = new Dictionary<Vector2, BuidingAndID>();
+
     [SerializeField]private List<MeshCheckData> checkDataList = new List<MeshCheckData>();
+    //[SerializeField] private List<MeshCheckData> UnusefulBox = new List<MeshCheckData>;
     
     [SerializeField]private Dictionary<Vector2,MeshCheckData> MeshCheckDic = new Dictionary<Vector2,MeshCheckData>();
 
@@ -45,6 +51,7 @@ public class MeshInstance : MonoBehaviour
         upRight = transform.TransformPoint(upRight);
         downLeft = transform.TransformPoint(downLeft);
         downRight = transform.TransformPoint(downRight);
+
     }
     private Vector2 BelongToWhichBox(Vector3 pos) 
     {
@@ -54,14 +61,14 @@ public class MeshInstance : MonoBehaviour
         float nx = (pos.x - downLeft.x);
         for (int i = 0; i < n ; i++) 
         {
-            if(nx * (n-i) <=  RealLongX)
+            if(nx * n <=  RealLongX* (i + 1))
             { x = i+1; break; }
         }
         //m
         float my = (pos.z - downLeft.z);
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < m; i++)
         {
-            if (my * (m-i) <= RealLongZ)
+            if (my * m <= RealLongZ* (i + 1))
             { y = i + 1; break; }
         }
         return new Vector2(x, y);
@@ -81,13 +88,14 @@ public class MeshInstance : MonoBehaviour
         }
     }
 
-    public void BrforePlace(Vector3 pos , int Id) 
+    public void BrforePlace(Vector3 pos , int Id , GameObject Building) 
     {
         if (PassCheck == null)
         { PassCheck = new Dictionary<Vector2, PassCheckData>(); }
         MeshCheckData data;
         Vector2 Box = BelongToWhichBox(pos); //在网格的（n，m）
 
+        if (!Buildings.ContainsKey(Box)) { Buildings.Add(Box, new BuidingAndID(Id, Building)); }
 
         //SaveManager.instance.SaveOnBuidingBePlaced(Id);
 
@@ -108,6 +116,7 @@ public class MeshInstance : MonoBehaviour
             }
             else 
             {
+
                 if (Id != data.id)
                 {
                     PassCheck.Add(Box, new PassCheckData(false, true));
@@ -126,11 +135,17 @@ public class MeshInstance : MonoBehaviour
         }
     }
 
-    public void BrforePlace(Vector2 Box , int Id)
+    public void BrforePlace(Vector2 Box , int Id , GameObject Building)
     {
         if (PassCheck == null)
         { PassCheck = new Dictionary<Vector2, PassCheckData>(); }
         MeshCheckData data;
+
+        if (!Buildings.ContainsKey(Box))
+        {
+            Buildings.Add(Box, new BuidingAndID(Id , Building));
+            Debug.Log($"添加==位置{Box}物体{Building}");
+        }
         if (MeshCheckDic.TryGetValue(Box, out data))
         {
             if (PassCheck.ContainsKey(Box))
@@ -180,7 +195,7 @@ public class MeshInstance : MonoBehaviour
         {
             finalPos.y = middlePos.y;
             finalPos.x = downLeft.x + (2 * Box.x - 1) * RealLongX / (2 * n);
-            finalPos.z = downLeft.z + (2 * Box.x - 1) * RealLongX / (2 * m);
+            finalPos.z = downLeft.z + (2 * Box.y - 1) * RealLongZ / (2 * m);
             return (finalPos, Box);
         }
     }
@@ -203,16 +218,28 @@ public class MeshInstance : MonoBehaviour
         return BoxIsUsedOrNot(BelongToWhichBox(hitPos)); 
     }
 
-    public void OnBuildingDelet(Vector3 p) 
+    public int OnBuildingDelet(Vector3 p) 
     {
         Vector2 Box = BelongToWhichBox(p);
-        if(PassCheck==null || !PassCheck.ContainsKey(Box)) { return; }
+        if(PassCheck==null || !PassCheck.ContainsKey(Box)) { return -1; }
+        int temp = Buildings[Box].ID;
+        Destroy(Buildings[Box].Buiding);
+        Buildings.Remove(Box);
         PassCheck.Remove(Box);
+        return temp;
     }
-    public void OnBuildingDelet(Vector2 box)
+    public int OnBuildingDelet(Vector2 box)
     {
-        if (PassCheck == null || !PassCheck.ContainsKey(box)) { return; }
+        if (PassCheck == null || !PassCheck.ContainsKey(box)) { return -1; }
+        if(Buildings == null || !Buildings.ContainsKey(box)) { return -1; }
+        Debug.Log($"移除==位置{box}物体{Buildings[box]}");
+        int temp = Buildings[box].ID;
+
+        Destroy(Buildings[box].Buiding);
+        Buildings.Remove(box);
+
         PassCheck.Remove(box);
+        return temp;
     }
 
 
@@ -237,13 +264,13 @@ public class MeshInstance : MonoBehaviour
         Debug.Log("牌没有问题");
         return true;
     }
-    public void DebugCheckAll() 
+    public bool DebugCheckAll() 
     {
         bool AllRight = true;
         if (PassCheck == null)
         {
             Debug.Log("还没有任何操作，PassCheck为空");
-            return ;
+            return false;
         }
         foreach (KeyValuePair<Vector2, PassCheckData> IsRight in PassCheck)
         {
@@ -254,6 +281,7 @@ public class MeshInstance : MonoBehaviour
             }
         }
         if (AllRight) { Debug.Log("全对"); }
+        return AllRight;
     }
 
 }
@@ -280,5 +308,18 @@ class PassCheckData
     {
         _isRight = isRight;
         _beUseing = beUsing;
+
     }
 }
+
+class BuidingAndID
+{
+    public int ID;
+    public GameObject Buiding;
+    public BuidingAndID(int id , GameObject buid) 
+    {
+        ID = id;
+        Buiding = buid;
+    }
+}
+
