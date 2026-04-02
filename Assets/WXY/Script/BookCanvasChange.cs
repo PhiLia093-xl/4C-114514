@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public class BookCanvasChange : MonoBehaviour
 {
      public GameObject[] canvas;
-    public CameraController CameraController;
+    public CameraController CameraController; 
     public Transform cameraTransform;
     private Vector3 originalPosition;
     private Quaternion originalRotation;
@@ -95,6 +95,7 @@ public class BookCanvasChange : MonoBehaviour
 
         if (index == 7 )
         {
+            DisableCamera();
             if (lastIndex == 0)
             {
                 originalPosition = cameraTransform.position;
@@ -121,8 +122,10 @@ public class BookCanvasChange : MonoBehaviour
 
         else if (index == 0)
         {
+            EnableCamera();
             cameraTransform.position = originalPosition;
             cameraTransform.rotation = originalRotation;
+
 
              if (CameraController.isInteracting == true)
              {
@@ -145,7 +148,25 @@ public class BookCanvasChange : MonoBehaviour
 
         
     }
-
     
+
+    // ½ûÖ¹ÉãÏñ»ú¿ØÖÆ
+    public void DisableCamera()
+    {
+        if (CameraController != null)
+        {
+            CameraController.enabled = false;
+        }
+    }
+
+    // »Ö¸´ÉãÏñ»ú¿ØÖÆ
+    public void EnableCamera()
+    {
+        if (CameraController != null)
+        {
+            CameraController.enabled = true;
+        }
+    }
+
 }
 

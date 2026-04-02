@@ -1076,6 +1076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 3
+  LastPage: 19
   leftPage: {fileID: 804722748}
   rightPage: {fileID: 5933406}
   flipPage: {fileID: 1822993237}
@@ -3085,7 +3087,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5185\u5EAD\u5916\u4E1C\u8DEF"
+  m_Text: "\u5185\u5EF7\u5916\u4E1C\u8DEF"
 --- !u!222 &369241851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3199,6 +3201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 6
+  LastPage: 21
   leftPage: {fileID: 698142807}
   rightPage: {fileID: 1790100063}
   flipPage: {fileID: 1976132899}
@@ -9699,18 +9703,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502867121}
-        m_TargetAssemblyTypeName: CameraControlToggle, Assembly-CSharp
-        m_MethodName: EnableCamera
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1352817887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10483,7 +10475,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1502867120}
   - component: {fileID: 1502867119}
-  - component: {fileID: 1502867121}
   m_Layer: 0
   m_Name: BookUI
   m_TagString: Untagged
@@ -10542,19 +10533,6 @@ Transform:
   - {fileID: 332548444}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1502867121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502867118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 320fdeecb53a53043a15cbe9a70547c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraController: {fileID: 1867465006}
 --- !u!1 &1526833524
 GameObject:
   m_ObjectHideFlags: 0
@@ -10805,7 +10783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5185\u5EAD\u5916\u897F\u8DEF"
+  m_Text: "\u5185\u5EF7\u5916\u897F\u8DEF"
 --- !u!222 &1532545611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11052,7 +11030,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5185\u5EAD\u4E2D\u8DEF"
+  m_Text: "\u5185\u5EF7\u4E2D\u8DEF"
 --- !u!222 &1579247528
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11524,6 +11502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 2
+  LastPage: 25
   leftPage: {fileID: 517148608}
   rightPage: {fileID: 1372191307}
   flipPage: {fileID: 2101367340}
@@ -12550,6 +12530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 4
+  LastPage: 19
   leftPage: {fileID: 1678315397}
   rightPage: {fileID: 379592468}
   flipPage: {fileID: 828782535}
@@ -13306,18 +13288,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502867121}
-        m_TargetAssemblyTypeName: CameraControlToggle, Assembly-CSharp
-        m_MethodName: DisableCamera
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1766905685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13759,6 +13729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 5
+  LastPage: 15
   leftPage: {fileID: 1470845458}
   rightPage: {fileID: 1683750773}
   flipPage: {fileID: 984670067}
@@ -15291,6 +15263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0e11a3b2f9c744b8321b80a93306e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 1
+  LastPage: 21
   leftPage: {fileID: 2102275967}
   rightPage: {fileID: 1752003937}
   flipPage: {fileID: 157308287}

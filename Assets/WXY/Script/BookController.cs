@@ -3,6 +3,9 @@ using UnityEngine.UI;
 
 public class BookController : MonoBehaviour
 {
+    [SerializeField] int ID;
+    [SerializeField] int LastPage;
+
     public Image leftPage;
     public Image rightPage;
     public SpriteRenderer flipPage;
@@ -155,6 +158,8 @@ public class BookController : MonoBehaviour
     {
         if (currentPageIndex + 1 < pages.Length)
             rightPage.sprite = pages[currentPageIndex + 1];
+
+        if (currentPageIndex == LastPage - 1) { SaveManager.instance.SaveOnBookBeRead(ID); }
     }
 
     /// <summary>
