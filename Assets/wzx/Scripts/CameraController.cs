@@ -25,8 +25,8 @@ public class CameraController : MonoBehaviour
 {
     [HideInInspector] public static UnityEvent onBuildingModeEx = new();
     [Header("漫游视角控制")]
-    public float moveSpeed = 15f; // WASD 和 QE 移动速度
-    public float lookSpeed = 3f;  // 鼠标拖拽旋转速度
+    public float moveSpeed = 15f;
+    public float lookSpeed = 3f;
 
     [Header("区域配置列表")]
     public InteractableZone[] zones;
@@ -34,10 +34,11 @@ public class CameraController : MonoBehaviour
     [Header("通用设置")]
     public float transitionSpeed = 2.0f;
 
-    // --- 新增代码段：UI 引用 ---
-    [Header("UI 控制")]
+    [Header("UI 与 管理器控制")]
     public GameObject uiObject;
-    // -----------------------
+    // --- 新增代码：ListManager 引用 ---
+    public GameObject listManager;
+    // ------------------------------
 
     // 状态记录
     private Vector3 beforePos;
@@ -46,14 +47,14 @@ public class CameraController : MonoBehaviour
     private bool isMoving = false;
     private InteractableZone currentActiveZone;
 
-    // 用于自由视角的内部旋转变量
     private float yaw = 0f;
     private float pitch = 0f;
 
     void Start()
     {
-        // 确保游戏开始时 UI 是关闭的
+        // 游戏开始时确保两者均关闭
         if (uiObject != null) uiObject.SetActive(false);
+        if (listManager != null) listManager.SetActive(false);
 
         SyncRotationVariables();
     }
@@ -73,8 +74,7 @@ public class CameraController : MonoBehaviour
                 {
                     if (!SaveManager.instance.BookBeReadOrNot(zoneToEnter.ID))
                     {
-                        Debug.Log($"无法打开{SaveManager.instance.books[zoneToEnter.ID]}的建造系统，" +
-                            $"因为{SaveManager.instance.books[zoneToEnter.ID]}的书籍还没有读完");
+                        Debug.Log($"无法打开{SaveManager.instance.books[zoneToEnter.ID]}的建造系统");
                         return;
                     }
                     StartCoroutine(EnterInteraction(zoneToEnter));
@@ -145,8 +145,9 @@ public class CameraController : MonoBehaviour
 
         if (zone.targetObject != null) zone.targetObject.SetActive(true);
 
-        // --- 修改部分：进入时激活 UI ---
+        // --- 激活 UI 和 ListManager ---
         if (uiObject != null) uiObject.SetActive(true);
+        if (listManager != null) listManager.SetActive(true);
 
         yield return StartCoroutine(MoveCamera(zone.targetPosition, Quaternion.Euler(zone.targetRotation)));
 
@@ -165,8 +166,9 @@ public class CameraController : MonoBehaviour
 
         if (currentActiveZone.targetObject != null) currentActiveZone.targetObject.SetActive(false);
 
-        // --- 修改部分：退出时失活 UI ---
+        // --- 失活 UI 和 ListManager ---
         if (uiObject != null) uiObject.SetActive(false);
+        if (listManager != null) listManager.SetActive(false);
 
         yield return StartCoroutine(MoveCamera(beforePos, beforeRot));
 

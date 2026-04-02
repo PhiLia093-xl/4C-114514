@@ -341,6 +341,7 @@ GameObject:
   - component: {fileID: 10238795}
   - component: {fileID: 10238794}
   - component: {fileID: 10238793}
+  - component: {fileID: 10238796}
   m_Layer: 3
   m_Name: GridVisualization
   m_TagString: Untagged
@@ -435,6 +436,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10238791}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &10238796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10238791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  buildingListGenerator: {fileID: 757724714}
+  n: 12
+  m: 6
+  checkDataList: []
 --- !u!1 &13471270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,7 +1726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deleteEvent: {fileID: 0}
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
   buildingListGenerator: {fileID: 757724714}
   n: 7
   m: 16
@@ -4900,7 +4918,7 @@ MonoBehaviour:
   objectPlacer: {fileID: 1038954533}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  meshInstance: {fileID: 0}
+  meshInstance: {fileID: 1671933303}
 --- !u!1 &597379788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,7 +5786,7 @@ MonoBehaviour:
   objectPlacer: {fileID: 217773958}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  meshInstance: {fileID: 0}
+  meshInstance: {fileID: 10238796}
 --- !u!1 &698142806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5861,7 +5879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &757724714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5906,11 +5924,11 @@ Transform:
   m_GameObject: {fileID: 757724713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -752, y: -0.1, z: -1039}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1762156867}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &763036012
 GameObject:
@@ -8732,6 +8750,7 @@ GameObject:
   - component: {fileID: 1250941657}
   - component: {fileID: 1250941656}
   - component: {fileID: 1250941655}
+  - component: {fileID: 1250941658}
   m_Layer: 3
   m_Name: GridVisualization
   m_TagString: Untagged
@@ -8826,6 +8845,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250941653}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1250941658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250941653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  buildingListGenerator: {fileID: 757724714}
+  n: 7
+  m: 6
+  checkDataList: []
 --- !u!1 &1251412378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8859,64 +8895,6 @@ Transform:
   - {fileID: 663447722}
   m_Father: {fileID: 1502867120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1261080606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1261080607}
-  - component: {fileID: 1261080608}
-  m_Layer: 0
-  m_Name: Data
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1261080607
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261080606}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.871338, y: 68.718056, z: -79.12695}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1762156867}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1261080608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261080606}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deleteEvent: {fileID: 0}
-  buildingListGenerator: {fileID: 0}
-  n: 0
-  m: 0
-  checkDataList:
-  - NxMy: {x: 0, y: 0}
-    id: 0
-    pos: {x: 0, y: 0, z: 0}
-  - NxMy: {x: 0, y: 0}
-    id: 0
-    pos: {x: 0, y: 0, z: 0}
-  - NxMy: {x: 0, y: 0}
-    id: 0
-    pos: {x: 0, y: 0, z: 0}
 --- !u!1 &1265643379
 GameObject:
   m_ObjectHideFlags: 0
@@ -10169,7 +10147,7 @@ MonoBehaviour:
   objectPlacer: {fileID: 1879683800}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  meshInstance: {fileID: 0}
+  meshInstance: {fileID: 2082666860}
 --- !u!1 &1463217630
 GameObject:
   m_ObjectHideFlags: 0
@@ -11142,7 +11120,7 @@ MonoBehaviour:
   objectPlacer: {fileID: 1282279629}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  meshInstance: {fileID: 0}
+  meshInstance: {fileID: 1250941658}
 --- !u!1 &1601168340
 GameObject:
   m_ObjectHideFlags: 0
@@ -12156,6 +12134,7 @@ GameObject:
   - component: {fileID: 1671933302}
   - component: {fileID: 1671933301}
   - component: {fileID: 1671933300}
+  - component: {fileID: 1671933303}
   m_Layer: 3
   m_Name: GridVisualization
   m_TagString: Untagged
@@ -12250,6 +12229,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671933298}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1671933303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671933298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  buildingListGenerator: {fileID: 757724714}
+  n: 6
+  m: 20
+  checkDataList: []
 --- !u!1 &1675439081
 GameObject:
   m_ObjectHideFlags: 0
@@ -13102,7 +13098,7 @@ MonoBehaviour:
   objectPlacer: {fileID: 1466207644}
   buildingEvent: {fileID: 11400000, guid: 19bcd54b6519bed418ec3e2c2b272d42, type: 2}
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  meshInstance: {fileID: 0}
+  meshInstance: {fileID: 1897533013}
 --- !u!1 &1752003936
 GameObject:
   m_ObjectHideFlags: 0
@@ -13213,8 +13209,6 @@ Transform:
   - {fileID: 1270848830}
   - {fileID: 1485022100}
   - {fileID: 633974807}
-  - {fileID: 1261080607}
-  - {fileID: 757724716}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766905683
@@ -14630,6 +14624,7 @@ MonoBehaviour:
     targetRotation: {x: 46, y: 0, z: 0}
   transitionSpeed: 2
   uiObject: {fileID: 1564354968}
+  listManager: {fileID: 757724713}
   isInteracting: 0
 --- !u!1 &1877170018
 GameObject:
@@ -14732,6 +14727,7 @@ GameObject:
   - component: {fileID: 1897533012}
   - component: {fileID: 1897533011}
   - component: {fileID: 1897533010}
+  - component: {fileID: 1897533013}
   m_Layer: 3
   m_Name: GridVisualization
   m_TagString: Untagged
@@ -14826,6 +14822,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897533008}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1897533013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897533008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  buildingListGenerator: {fileID: 757724714}
+  n: 5
+  m: 7
+  checkDataList: []
 --- !u!1 &1928252404
 GameObject:
   m_ObjectHideFlags: 0
@@ -15691,6 +15704,7 @@ GameObject:
   - component: {fileID: 2082666859}
   - component: {fileID: 2082666858}
   - component: {fileID: 2082666857}
+  - component: {fileID: 2082666860}
   m_Layer: 3
   m_Name: GridVisualization
   m_TagString: Untagged
@@ -15785,6 +15799,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082666855}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2082666860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082666855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
+  buildingListGenerator: {fileID: 757724714}
+  n: 10
+  m: 20
+  checkDataList: []
 --- !u!1 &2085597617
 GameObject:
   m_ObjectHideFlags: 0
@@ -16982,4 +17013,5 @@ SceneRoots:
   - {fileID: 535284858372872468}
   - {fileID: 1354268448}
   - {fileID: 1564354969}
+  - {fileID: 757724716}
   - {fileID: 969632520}

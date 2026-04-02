@@ -143,8 +143,7 @@ public class PlacementSystem : MonoBehaviour
         //}
         if (meshInstance.DebugCheckAll())
         {
-            SaveManager.instance.SaveOnMeshBePlaced(id);
-            
+            SaveManager.instance.SaveOnMeshBePlaced(id);           
         }
         SaveManager.instance.TestForMeshPlace();
     }
