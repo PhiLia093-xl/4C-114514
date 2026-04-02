@@ -1708,6 +1708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 0}
+  buildingListGenerator: {fileID: 757724714}
   n: 7
   m: 16
   checkDataList:
@@ -8901,6 +8903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7c0e80e9b20273488bcd9185048ac71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deleteEvent: {fileID: 0}
+  buildingListGenerator: {fileID: 0}
   n: 0
   m: 0
   checkDataList:
@@ -14625,6 +14629,7 @@ MonoBehaviour:
     targetPosition: {x: 1050, y: 130, z: 770}
     targetRotation: {x: 46, y: 0, z: 0}
   transitionSpeed: 2
+  uiObject: {fileID: 1564354968}
   isInteracting: 0
 --- !u!1 &1877170018
 GameObject:
