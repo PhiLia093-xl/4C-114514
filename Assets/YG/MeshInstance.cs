@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.InteropServices;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
@@ -20,6 +21,9 @@ public class MeshInstance : MonoBehaviour
     float RealLongX;
     float RealLongZ;
 
+    [Header("删除事件")]
+    public DeleteEvent deleteEvent;
+    public BuildingListGenerator buildingListGenerator;
     // n X m 的网格
     [SerializeField] private int n; //X轴方向长几格
     [SerializeField] private int m; //Z轴方向长几格
@@ -230,12 +234,17 @@ public class MeshInstance : MonoBehaviour
     }
     public int OnBuildingDelet(Vector2 box)
     {
+        //这个是删除建筑的方法
+        //返回值是被删除建筑的ID
         if (PassCheck == null || !PassCheck.ContainsKey(box)) { return -1; }
         if(Buildings == null || !Buildings.ContainsKey(box)) { return -1; }
         Debug.Log($"移除==位置{box}物体{Buildings[box]}");
         int temp = Buildings[box].ID;
-
-        Destroy(Buildings[box].Buiding);
+        
+        if (buildingListGenerator != null&&deleteEvent!=null)
+            deleteEvent.Raise(buildingListGenerator.currDataList.Find(data => data.ID == temp));
+        else Debug.LogError("无列表操作变量，无法修改。或者无事件资产，无法触发事件");
+            Destroy(Buildings[box].Buiding);
         Buildings.Remove(box);
 
         PassCheck.Remove(box);
