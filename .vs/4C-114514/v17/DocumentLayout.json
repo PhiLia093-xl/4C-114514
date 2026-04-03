@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\Github\\4C-114514\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\placementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\deleteevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wxy\\script\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wxy\\script\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,20 +50,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "MeshInstance.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
+              "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:33:00.552Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\CameraController.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\wzx\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAqwEYAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAowNUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T01:50:26.806Z",
-              "IsPinned": true
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteEvent.cs",
+              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\DeleteEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\DeleteEvent.cs",
+              "ToolTip": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\DeleteEvent.cs",
+              "RelativeToolTip": "Assets\\BuildingList\\script\\DeleteEvent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T05:23:50.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,62 +100,53 @@
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\RemovingState.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\RemovingState.cs",
               "RelativeToolTip": "Assets\\wzx\\Scripts\\RemovingState.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAEwCsAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T17:14:00.138Z"
+              "WhenOpened": "2026-04-01T17:14:00.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BuildingListGenerator.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAADIyszMzMwewBgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T16:58:38.183Z"
+              "WhenOpened": "2026-04-01T16:58:38.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlacementSystem.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\PlacementSystem.cs",
               "RelativeToolTip": "Assets\\wzx\\Scripts\\PlacementSystem.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAqwIgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:21:46.146Z"
+              "WhenOpened": "2026-03-14T09:21:46.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MeshInstance.cs",
-              "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
-              "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
-              "ToolTip": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
-              "RelativeToolTip": "Assets\\YG\\MeshInstance.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAIAzwNsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:33:00.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SaveManager.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveManager.cs",
               "RelativeToolTip": "Assets\\WXY\\Script\\SaveManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAEBdwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T16:30:51.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BookCanvasChange.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\BookCanvasChange.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\BookCanvasChange.cs",
@@ -136,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\BookController.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\BookController.cs",
@@ -148,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\WXY\\Script\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\WXY\\Script\\SaveSystem.cs",
@@ -156,8 +178,7 @@
               "RelativeToolTip": "Assets\\WXY\\Script\\SaveSystem.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAzwCAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T16:14:01.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T16:14:01.355Z"
             }
           ]
         }
