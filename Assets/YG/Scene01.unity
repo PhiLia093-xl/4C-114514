@@ -10005,7 +10005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1386843188
 Transform:
   m_ObjectHideFlags: 0
@@ -16329,6 +16329,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1386843188}
     m_Modifications:
+    - target: {fileID: 1147552363791452696, guid: 55ce83e4dfd5ac24689f6b2966952b2a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 460c54293a8a62246b043a03f4fb6def, type: 2}
+    - target: {fileID: 1488867336563881753, guid: 55ce83e4dfd5ac24689f6b2966952b2a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3faad9bcff5fc79438b189d6a28256b4, type: 2}
     - target: {fileID: 6945158391186769435, guid: 55ce83e4dfd5ac24689f6b2966952b2a, type: 3}
       propertyPath: m_Name
       value: "\u5348\u95E8prefab"
@@ -16373,6 +16381,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8766643058798984182, guid: 55ce83e4dfd5ac24689f6b2966952b2a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a62731ea63d3064fa0484298035686a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

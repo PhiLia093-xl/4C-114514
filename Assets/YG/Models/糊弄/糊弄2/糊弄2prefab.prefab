@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalScale.y
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalScale.z
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 531.6
+      value: 560.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1059.7
+      value: 1021.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_LocalRotation.w
@@ -72,13 +72,17 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b730214630240604494112b5bd449c57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08a578067dd471e44b2d92cb6700eb7f, type: 2}
     - target: {fileID: 919132149155446097, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_Name
       value: "\u7CCA\u5F042prefab"
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b730214630240604494112b5bd449c57, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 23
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
