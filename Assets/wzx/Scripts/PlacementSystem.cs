@@ -148,7 +148,7 @@ public class PlacementSystem : MonoBehaviour
         SaveManager.instance.TestForMeshPlace();
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         CameraController.onBuildingModeEx.RemoveListener(OnBuildingEx);
     }
