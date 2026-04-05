@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59458fee8f725a94c9c1864bd9d7fcef, type: 3}
+  m_Name: "\u5B81\u5BFF\u5BAB"
+  m_EditorClassIdentifier: 
+  buildingName: "\u5B81\u5BFF\u5BAB"
+  icon: {fileID: 0}
+  prefab: {fileID: 2047043126853511805, guid: 252f3a109e684fc428b3c0d2bd820eb2, type: 3}
+  maxCount: 1
+  ID: 3
+  size: {x: 2, y: 1}
+  rightPosition: {x: 0, y: 0, z: 0}

@@ -34,12 +34,6 @@ public class CameraController : MonoBehaviour
     [Header("通用设置")]
     public float transitionSpeed = 2.0f;
 
-    [Header("UI 与 管理器控制")]
-    public GameObject uiObject;
-    // --- 新增代码：ListManager 引用 ---
-    public GameObject listManager;
-    // ------------------------------
-
     // 状态记录
     private Vector3 beforePos;
     private Quaternion beforeRot;
@@ -52,10 +46,6 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        // 游戏开始时确保两者均关闭
-        if (uiObject != null) uiObject.SetActive(false);
-        if (listManager != null) listManager.SetActive(false);
-
         SyncRotationVariables();
     }
 
@@ -145,10 +135,6 @@ public class CameraController : MonoBehaviour
 
         if (zone.targetObject != null) zone.targetObject.SetActive(true);
 
-        // --- 激活 UI 和 ListManager ---
-        if (uiObject != null) uiObject.SetActive(true);
-        if (listManager != null) listManager.SetActive(true);
-
         yield return StartCoroutine(MoveCamera(zone.targetPosition, Quaternion.Euler(zone.targetRotation)));
 
         isInteracting = true;
@@ -165,10 +151,6 @@ public class CameraController : MonoBehaviour
         isMoving = true;
 
         if (currentActiveZone.targetObject != null) currentActiveZone.targetObject.SetActive(false);
-
-        // --- 失活 UI 和 ListManager ---
-        if (uiObject != null) uiObject.SetActive(false);
-        if (listManager != null) listManager.SetActive(false);
 
         yield return StartCoroutine(MoveCamera(beforePos, beforeRot));
 
