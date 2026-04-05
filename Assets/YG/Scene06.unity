@@ -2435,7 +2435,7 @@ MonoBehaviour:
   leftPage: {fileID: 804722748}
   rightPage: {fileID: 5933406}
   flipPage: {fileID: 1822993237}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: d3eb30050b0b3a84188e750b8eba391f, type: 3}
   - {fileID: 21300000, guid: 1afeb96dffe420b428e6e9eea632a025, type: 3}
@@ -5522,7 +5522,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6217,7 +6217,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -7156,7 +7156,7 @@ MonoBehaviour:
   leftPage: {fileID: 698142807}
   rightPage: {fileID: 1790100063}
   flipPage: {fileID: 1976132899}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: 1ae6d4e0ac594b74b989a05c36fba579, type: 3}
   - {fileID: 21300000, guid: 58138d74415887f4bac8e14e8dee5409, type: 3}
@@ -11918,7 +11918,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -13205,7 +13205,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -23314,7 +23314,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -29610,8 +29610,8 @@ MonoBehaviour:
   canvas:
   - {fileID: 0}
   - {fileID: 0}
-  CameraController: {fileID: 0}
-  cameraTransform: {fileID: 0}
+  CameraController: {fileID: 1585847732}
+  cameraTransform: {fileID: 1585847736}
   target: {fileID: 1939287297}
   Tip: {fileID: 1081606268}
   canvases:
@@ -32517,7 +32517,7 @@ MonoBehaviour:
   leftPage: {fileID: 517148608}
   rightPage: {fileID: 1372191307}
   flipPage: {fileID: 2101367340}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: 01c5c9c74363b9043a30dbc771efe679, type: 3}
   - {fileID: 21300000, guid: 2f85087681a801e4cad8725e0c28d7d4, type: 3}
@@ -34326,7 +34326,7 @@ MonoBehaviour:
   leftPage: {fileID: 1678315397}
   rightPage: {fileID: 379592468}
   flipPage: {fileID: 828782535}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: 4372a84f1999f5a4eaec3046311912fb, type: 3}
   - {fileID: 21300000, guid: 9af57aef10046854393a947bc092ef0d, type: 3}
@@ -35491,7 +35491,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -36915,7 +36915,7 @@ MonoBehaviour:
   leftPage: {fileID: 1470845458}
   rightPage: {fileID: 1683750773}
   flipPage: {fileID: 984670067}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: ae9899be37969a44b83b1d5098ea54c4, type: 3}
   - {fileID: 21300000, guid: 5fc1f25aa682ce148960826c5b5abc24, type: 3}
@@ -39952,7 +39952,7 @@ MonoBehaviour:
   leftPage: {fileID: 2102275967}
   rightPage: {fileID: 1752003937}
   flipPage: {fileID: 157308287}
-  uiCamera: {fileID: 0}
+  uiCamera: {fileID: 1585847731}
   pages:
   - {fileID: 21300000, guid: 6e0c3e7c52586fd43bc57a0dd3a9a3eb, type: 3}
   - {fileID: 21300000, guid: f0b3a1ad13ed06b408be240c31982f19, type: 3}
@@ -41027,7 +41027,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1585847731}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
