@@ -11,11 +11,11 @@ public class SaveManager : MonoBehaviour
         if (instance == null) 
         {
             instance = this;
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(gameObject);
         }
         else 
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 
@@ -31,6 +31,7 @@ public class SaveManager : MonoBehaviour
     };
 
     [SerializeField] private SaveData _saveData;
+    public SaveData saveData_P => _saveData;
 
     private void Start()
     {

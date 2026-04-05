@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     [Header("Scene")]
     [Tooltip("SampleScene")]
-    public string gameSceneName = "Game";
+    public string gameSceneName = "Scene01";
 
     [Header("UI Panels")]
     [Tooltip("SettingsPanel")]

@@ -9,18 +9,24 @@ EditorBuildSettings:
     path: Assets/tianxingjian/Main Scene.unity
     guid: 169a6a7ba62c80e488f32ee4ad86eea6
   - enabled: 1
-    path: Assets/WXY/Fobbiden City.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/YG/Scene01.unity
+    guid: 7b343fa0e61bf5c4faac33d84c735c6d
   - enabled: 1
-    path: Assets/WXY/BookScence.unity
-    guid: 8901971660611294b910d5b5cccf28ce
+    path: Assets/YG/Scene02.unity
+    guid: 5be5d58dbf2a09b42a332c215330bd0c
   - enabled: 1
-    path: "Assets/YG/\u653E\u7F6E\u6D4B\u8BD5\u573A\u666F.unity"
-    guid: c55465d8e21de464cba3692a2532dda1
+    path: Assets/YG/Scene03.unity
+    guid: 63674d55dad90e240912b95c20de1fda
   - enabled: 1
-    path: Assets/WXY/TestBuildingList.unity
-    guid: ab03449f8f4a30749bf47a5c7f6a8629
+    path: Assets/YG/Scene04.unity
+    guid: 690fe768de1d5be49b399cc363775118
   - enabled: 1
-    path: Assets/YG/Scene.unity
-    guid: 8852d27f1349f0b4fa299360efe09582
+    path: Assets/YG/Scene05.unity
+    guid: a7a9c881abd0daf4893a18351c4f9fbf
+  - enabled: 1
+    path: Assets/YG/Scene06.unity
+    guid: ff6dcc4f09ca40a4b89a3229cf4b513f
+  - enabled: 1
+    path: Assets/YG/Scene07.unity
+    guid: d303574e357f09f4d85dc67a282393ad
   m_configObjects: {}

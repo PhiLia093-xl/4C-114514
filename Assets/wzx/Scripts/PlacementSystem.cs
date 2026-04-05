@@ -141,11 +141,11 @@ public class PlacementSystem : MonoBehaviour
         //    SaveManager.instance.SaveOnMeshBePlaced(id);
         //    CameraController.onBuildingModeEx.RemoveListener(OnBuildingEx);
         //}
-        if (meshInstance.DebugCheckAll())
+        if (meshInstance.CheckAll())
         {
             SaveManager.instance.SaveOnMeshBePlaced(id);           
         }
-        SaveManager.instance.TestForMeshPlace();
+        //SaveManager.instance.TestForMeshPlace();
     }
 
     private void OnDestroy()

@@ -44,7 +44,7 @@ public class BookCanvasChange : MonoBehaviour
 
     public void ShowCanvas(int index)
     {
-        SaveManager.instance.TestForBook();
+        //SaveManager.instance.TestForBook();
 
         
 
