@@ -82,7 +82,7 @@ public class BookCanvasChange : MonoBehaviour
     {
 
         SceneTransition.TransitionTo();
-
+        
 
 
         yield return new WaitForSeconds(3f);
