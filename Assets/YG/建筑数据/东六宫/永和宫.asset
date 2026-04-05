@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u6C38\u548C\u5BAB"
   m_EditorClassIdentifier: 
   buildingName: "\u6C38\u548C\u5BAB"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c4b5485c5a1d9f3438d0e3f23fb17b90, type: 3}
   prefab: {fileID: 5912408462305116281, guid: 1aab41ef644c49646bfaf277d24bafdc, type: 3}
   maxCount: 1
   ID: 4

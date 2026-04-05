@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\4C-114514\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|d:\\github\\4c-114514\\assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\wzx\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\yg\\meshinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|solutionrelative:assets\\buildinglist\\script\\buildinglistgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{377A9D0E-0F0F-DD4A-8D00-F9ED31C1583A}|Assembly-CSharp.csproj|D:\\Github\\4C-114514\\assets\\wzx\\scripts\\removingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MeshInstance.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\YG\\MeshInstance.cs",
               "RelativeDocumentMoniker": "Assets\\YG\\MeshInstance.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\wzx\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\wzx\\Scripts\\CameraController.cs",
@@ -104,15 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BuildingListGenerator.cs",
               "DocumentMoniker": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "ToolTip": "D:\\Github\\4C-114514\\Assets\\BuildingList\\script\\BuildingListGenerator.cs",
               "RelativeToolTip": "Assets\\BuildingList\\script\\BuildingListGenerator.cs",
-              "ViewState": "AgIAAAwAAADIyszMzMwewBgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAADIyszMzMwewCEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T16:58:38.183Z"
+              "WhenOpened": "2026-04-01T16:58:38.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
