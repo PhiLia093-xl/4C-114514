@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1624456697}
+  buildingListGenerator: {fileID: 1148759241}
   n: 6
   m: 20
   checkDataList:
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1803469062}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -2769,7 +2769,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 956085319}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -8872,7 +8872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1624456697}
+  buildingListGenerator: {fileID: 1280644093}
   n: 7
   m: 6
   checkDataList:
@@ -10489,7 +10489,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1256810659}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -10876,7 +10876,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 718751327}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -12139,7 +12139,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1389164883}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -13494,7 +13494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 0}
+  buildingListGenerator: {fileID: 858441536}
   n: 10
   m: 30
   checkDataList:
@@ -16700,7 +16700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1624456697}
+  buildingListGenerator: {fileID: 975280254}
   n: 5
   m: 7
   checkDataList:
@@ -17300,7 +17300,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1474869186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1455579620}
+        m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
+        m_MethodName: StartRemoving
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1474869186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20063,7 +20075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1624456697}
+  buildingListGenerator: {fileID: 237602587}
   n: 12
   m: 6
   checkDataList:
@@ -23659,8 +23671,8 @@ MonoBehaviour:
     xRange: {x: 626, y: 874}
     zRange: {x: 350, y: 845}
     targetObject: {fileID: 570034060}
-    targetPosition: {x: 741.9, y: 200, z: 350}
-    targetRotation: {x: 50, y: 0, z: 0}
+    targetPosition: {x: 805, y: 647, z: 570}
+    targetRotation: {x: 89, y: 0, z: 0}
   - zoneName: "\u5185\u5EF7\u4E2D\u8DEF"
     ID: 2
     xRange: {x: 680, y: 826}
@@ -23694,8 +23706,8 @@ MonoBehaviour:
     xRange: {x: 975, y: 1104}
     zRange: {x: 801, y: 1204}
     targetObject: {fileID: 435376082}
-    targetPosition: {x: 1050, y: 130, z: 770}
-    targetRotation: {x: 46, y: 0, z: 0}
+    targetPosition: {x: 1092, y: 363, z: 1002}
+    targetRotation: {x: 89, y: 0, z: 0}
   transitionSpeed: 2
   isInteracting: 0
 --- !u!54 &1983224463
@@ -23764,13 +23776,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983224460}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4709734, y: 0, z: 0, w: 0.88214743}
-  m_LocalPosition: {x: 750, y: 163.46701, z: 612.39246}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 750, y: 280, z: 1083}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 56.195, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2056188461
 GameObject:
   m_ObjectHideFlags: 0

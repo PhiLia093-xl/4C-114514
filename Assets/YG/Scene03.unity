@@ -642,7 +642,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1198338747}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -10097,7 +10097,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1959744970}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -14274,7 +14274,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 327247156}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -14672,7 +14672,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 748695858}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -16775,7 +16775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 818892342}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -17045,7 +17045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1245442343}
+  buildingListGenerator: {fileID: 848075150}
   n: 12
   m: 6
   checkDataList:
@@ -17958,7 +17958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 0}
+  buildingListGenerator: {fileID: 1119999283}
   n: 10
   m: 30
   checkDataList:
@@ -21438,7 +21438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1245442343}
+  buildingListGenerator: {fileID: 1517207582}
   n: 5
   m: 7
   checkDataList:
@@ -22619,7 +22619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1245442343}
+  buildingListGenerator: {fileID: 496376590}
   n: 6
   m: 20
   checkDataList:
@@ -23409,8 +23409,8 @@ MonoBehaviour:
     xRange: {x: 626, y: 874}
     zRange: {x: 350, y: 845}
     targetObject: {fileID: 496669993}
-    targetPosition: {x: 741.9, y: 200, z: 350}
-    targetRotation: {x: 50, y: 0, z: 0}
+    targetPosition: {x: 805, y: 647, z: 570}
+    targetRotation: {x: 89, y: 0, z: 0}
   - zoneName: "\u5185\u5EF7\u4E2D\u8DEF"
     ID: 2
     xRange: {x: 680, y: 826}
@@ -23444,8 +23444,8 @@ MonoBehaviour:
     xRange: {x: 975, y: 1104}
     zRange: {x: 801, y: 1204}
     targetObject: {fileID: 511172584}
-    targetPosition: {x: 1050, y: 130, z: 770}
-    targetRotation: {x: 46, y: 0, z: 0}
+    targetPosition: {x: 1092, y: 363, z: 1002}
+    targetRotation: {x: 89, y: 0, z: 0}
   transitionSpeed: 2
   isInteracting: 0
 --- !u!54 &1795947977
@@ -25665,7 +25665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 1245442343}
+  buildingListGenerator: {fileID: 1419104030}
   n: 7
   m: 6
   checkDataList:

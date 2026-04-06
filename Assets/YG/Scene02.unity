@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 604266550}
+  buildingListGenerator: {fileID: 1783556343}
   n: 6
   m: 20
   checkDataList:
@@ -1650,8 +1650,8 @@ MonoBehaviour:
     xRange: {x: 626, y: 874}
     zRange: {x: 350, y: 845}
     targetObject: {fileID: 1171308299}
-    targetPosition: {x: 741.9, y: 200, z: 350}
-    targetRotation: {x: 50, y: 0, z: 0}
+    targetPosition: {x: 805, y: 647, z: 570}
+    targetRotation: {x: 89, y: 0, z: 0}
   - zoneName: "\u5185\u5EF7\u4E2D\u8DEF"
     ID: 2
     xRange: {x: 680, y: 826}
@@ -1685,8 +1685,8 @@ MonoBehaviour:
     xRange: {x: 975, y: 1104}
     zRange: {x: 801, y: 1204}
     targetObject: {fileID: 793660823}
-    targetPosition: {x: 1050, y: 130, z: 770}
-    targetRotation: {x: 46, y: 0, z: 0}
+    targetPosition: {x: 1092, y: 363, z: 1002}
+    targetRotation: {x: 89, y: 0, z: 0}
   transitionSpeed: 2
   isInteracting: 0
 --- !u!54 &104415074
@@ -6733,7 +6733,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 500329784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 445457986}
+        m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
+        m_MethodName: StartRemoving
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &500329784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8974,7 +8986,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 720030826}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -10751,7 +10763,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1241355532}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -14825,7 +14837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 604266550}
+  buildingListGenerator: {fileID: 162500907}
   n: 7
   m: 6
   checkDataList:
@@ -15154,7 +15166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 604266550}
+  buildingListGenerator: {fileID: 2115577912}
   n: 12
   m: 6
   checkDataList:
@@ -16715,7 +16727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 604266550}
+  buildingListGenerator: {fileID: 216792033}
   n: 5
   m: 7
   checkDataList:
@@ -18610,7 +18622,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1873113342}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -18827,7 +18839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteEvent: {fileID: 11400000, guid: 5ec57a6e01fd7dc45b1bef334bac68a9, type: 2}
-  buildingListGenerator: {fileID: 0}
+  buildingListGenerator: {fileID: 968004804}
   n: 10
   m: 30
   checkDataList:
@@ -19098,7 +19110,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1471333158}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
@@ -25052,7 +25064,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1062957376}
         m_TargetAssemblyTypeName: PlacementSystem, Assembly-CSharp
         m_MethodName: StartRemoving
         m_Mode: 1
