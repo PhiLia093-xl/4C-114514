@@ -17381,8 +17381,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 39379032}
+  - {fileID: 858441535}
+  - {fileID: 597536515}
+  - {fileID: 1148759240}
+  - {fileID: 221930251}
+  - {fileID: 237602586}
+  - {fileID: 1470594094}
+  - {fileID: 1280644092}
+  - {fileID: 126492921}
+  - {fileID: 975280253}
+  - {fileID: 350291175}
+  - {fileID: 1624456696}
   CameraController: {fileID: 1983224462}
   cameraTransform: {fileID: 1983224466}
   target: {fileID: 1939287297}
